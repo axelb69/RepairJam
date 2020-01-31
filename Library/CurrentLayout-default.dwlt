@@ -531,9 +531,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 24300000
       m_LastClickedID: 0
-      m_ExpandedIDs: ecfaffff6efbffff
+      m_ExpandedIDs: 6efbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -622,20 +622,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Axel/script
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Axel/script
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Aries\cours\repairetonpere\RepairJam
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 922c0000
-    m_LastClickedID: 11410
-    m_ExpandedIDs: 00000000922c000000ca9a3b
+    m_SelectedIDs: fe2f0000
+    m_LastClickedID: 12286
+    m_ExpandedIDs: 00000000c42c0000622e0000fe2f000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -663,7 +663,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000922c0000
+    m_ExpandedIDs: 00000000c42c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
