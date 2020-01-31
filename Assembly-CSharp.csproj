@@ -54,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Dylan\DylanScripts\FollowMouse.cs" />
+     <Compile Include="Assets\MainMenu.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>D:/Outil Prototypage/RepairJam/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
