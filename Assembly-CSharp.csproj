@@ -62,6 +62,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Axel\script\GoblinEnnemis\EnnemisMoves.cs" />
     <Compile Include="Assets\Axel\script\Manager\Singleton.cs" />
     <Compile Include="Assets\Axel\script\Manager\TheGameManager.cs" />
     <Compile Include="Assets\Dylan\DylanScripts\FollowMouse.cs" />
