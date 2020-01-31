@@ -1,5 +1,9 @@
 sceneSetups:
-- path: Assets/Dylan/SceneTests.unity
+<<<<<<< HEAD
+- path: Assets/Axel/SceneTests 1.unity
+=======
+- path: Assets/Julie/SceneJulie/SceneJulie.unity
+>>>>>>> 6956be7471d4642e0b905f6a6cbe0e3eed1b51b4
   isLoaded: 1
   isActive: 1
   isSubScene: 0
