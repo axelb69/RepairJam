@@ -64,6 +64,7 @@
   <ItemGroup>
     <Compile Include="Assets\Axel\script\Manager\Singleton.cs" />
     <Compile Include="Assets\Axel\script\Manager\TheGameManager.cs" />
+    <Compile Include="Assets\Dylan\DylanScripts\FollowMouse.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>D:/Aries/cours/repairetonpere/RepairJam/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
