@@ -1,11 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Engine.Utils;
 
-public class HouseConstructionTime : MonoBehaviour
+public class recup : MonoBehaviour
 {
-    [SerializeField] private AnimationCurve _houseConstructionTime = AnimationCurve.Linear(0, 10, 15, 500);
-
+    [SerializeField] private int _waves = 0;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,6 +15,6 @@ public class HouseConstructionTime : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        Debug.Log(WavesManager.Instance.houseConstructionTime.Evaluate(_waves));
     }
 }

@@ -14,17 +14,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Children:
   - {fileID: 3}
-  - {fileID: 19}
+  - {fileID: 18}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 681, y: 344}
-  m_MaxSize: {x: 12006, y: 8044}
+  m_MinSize: {x: 883, y: 494}
+  m_MaxSize: {x: 16008, y: 14044}
   vertical: 0
-  controlID: 22001
+  controlID: 11965
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -46,13 +46,13 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 325
+    x: 893
     y: 73
-    width: 1204
+    width: 593
     height: 602
   m_ViewDataDictionary: {fileID: 0}
   m_VSyncEnabled: 0
-  m_MaximizeOnPlay: 1
+  m_MaximizeOnPlay: 0
   m_Gizmos: 0
   m_Stats: 0
   m_SelectedSizes: 05000000000000000000000000000000000000000000000000000000000000000000000000000000
@@ -62,10 +62,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -520
-    m_HBaseRangeMax: 520
-    m_VBaseRangeMin: -292.5
-    m_VBaseRangeMax: 292.5
+    m_HBaseRangeMin: -296.5
+    m_HBaseRangeMax: 296.5
+    m_VBaseRangeMin: -167
+    m_VBaseRangeMax: 167
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -74,7 +74,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -83,25 +83,25 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 17
-      width: 1204
+      width: 593
       height: 585
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 602, y: 292.5}
+    m_Translation: {x: 296.5, y: 292.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -602
+      x: -296.5
       y: -292.5
-      width: 1204
+      width: 593
       height: 585
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
-  m_LastWindowPixelSize: {x: 1204, y: 602}
+  m_LastWindowPixelSize: {x: 593, y: 602}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -120,17 +120,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Children:
   - {fileID: 4}
-  - {fileID: 12}
+  - {fileID: 13}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1531
+    width: 1488
     height: 947
-  m_MinSize: {x: 404, y: 344}
-  m_MaxSize: {x: 8004, y: 8044}
+  m_MinSize: {x: 606, y: 494}
+  m_MaxSize: {x: 12006, y: 14044}
   vertical: 1
-  controlID: 22002
+  controlID: 11966
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -146,16 +146,17 @@ MonoBehaviour:
   m_Children:
   - {fileID: 5}
   - {fileID: 7}
+  - {fileID: 12}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1531
+    width: 1488
     height: 621
-  m_MinSize: {x: 404, y: 222}
-  m_MaxSize: {x: 8004, y: 4022}
+  m_MinSize: {x: 606, y: 222}
+  m_MaxSize: {x: 12006, y: 4022}
   vertical: 0
-  controlID: 11441
+  controlID: 11967
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -173,10 +174,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 325
+    width: 308
     height: 621
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 222}
+  m_MaxSize: {x: 4002, y: 4022}
   m_ActualView: {fileID: 6}
   m_Panes:
   - {fileID: 6}
@@ -205,29 +206,29 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73
-    width: 325
+    width: 308
     height: 602
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: a281ffff1482ffff3e82ffffb081ffff
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 1cc4ffff6cfbffff62360000b83600000037000028370000
+      m_ExpandedIDs: b0f4ffff20f6fffff4ffffffde4400004c4500006e4500007c4500009a450000c2450000e2450000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: walk_sheet_0
-        m_OriginalName: walk_sheet_0
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 13922
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 5}
       m_SearchString: 
@@ -252,21 +253,20 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 325
+    x: 308
     y: 0
-    width: 1206
+    width: 585
     height: 621
   m_MinSize: {x: 204, y: 222}
   m_MaxSize: {x: 4004, y: 4022}
-  m_ActualView: {fileID: 2}
+  m_ActualView: {fileID: 8}
   m_Panes:
   - {fileID: 8}
-  - {fileID: 2}
   - {fileID: 9}
   - {fileID: 10}
   - {fileID: 11}
-  m_Selected: 1
-  m_LastSelected: 2
+  m_Selected: 0
+  m_LastSelected: 3
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -288,9 +288,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 325
+    x: 308
     y: 73
-    width: 1204
+    width: 583
     height: 602
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
@@ -303,9 +303,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1.9102261, y: -13.94099, z: -10.443558}
+    m_Target: {x: -5.2322106, y: -63.560516, z: -12.475153}
     speed: 2
-    m_Value: {x: 1.9102261, y: -13.94099, z: -10.443558}
+    m_Value: {x: -5.2322106, y: -63.560516, z: -12.475153}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -334,13 +334,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.3808617, y: -0.10315351, z: 0.042786345, w: -0.9178955}
+    m_Target: {x: -0.68624425, y: -0.0072229514, z: 0.0067823674, w: -0.727377}
     speed: 2
-    m_Value: {x: -0.38085043, y: -0.103150465, z: 0.04278508, w: -0.9178684}
+    m_Value: {x: -0.6862077, y: -0.0072225668, z: 0.006782006, w: -0.72733825}
   m_Size:
-    m_Target: 40.482605
+    m_Target: 230.68394
     speed: 2
-    m_Value: 40.482605
+    m_Value: 230.68394
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -444,7 +444,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 325
     y: 73
-    width: 1204
+    width: 802
     height: 602
   m_ViewDataDictionary: {fileID: 0}
   Collection:
@@ -529,7 +529,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.2.16
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.collab-proxy@1.2.16
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.collab-proxy@1.2.16
         m_AssetPath: Packages/com.unity.collab-proxy
         m_Name: com.unity.collab-proxy
         m_DisplayName: Unity Collaborate
@@ -609,7 +609,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.2.16
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.collab-proxy@1.2.16
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.collab-proxy@1.2.16
         m_AssetPath: Packages/com.unity.collab-proxy
         m_Name: com.unity.collab-proxy
         m_DisplayName: Unity Collaborate
@@ -689,7 +689,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.2.16
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.collab-proxy@1.2.16
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.collab-proxy@1.2.16
         m_AssetPath: Packages/com.unity.collab-proxy
         m_Name: com.unity.collab-proxy
         m_DisplayName: Unity Collaborate
@@ -769,7 +769,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.2.16
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.collab-proxy@1.2.16
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.collab-proxy@1.2.16
         m_AssetPath: Packages/com.unity.collab-proxy
         m_Name: com.unity.collab-proxy
         m_DisplayName: Unity Collaborate
@@ -849,7 +849,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.2.16
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.collab-proxy@1.2.16
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.collab-proxy@1.2.16
         m_AssetPath: Packages/com.unity.collab-proxy
         m_Name: com.unity.collab-proxy
         m_DisplayName: Unity Collaborate
@@ -929,7 +929,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.ext.nunit@1.0.0
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.ext.nunit@1.0.0
         m_AssetPath: Packages/com.unity.ext.nunit
         m_Name: com.unity.ext.nunit
         m_DisplayName: Custom NUnit
@@ -991,7 +991,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.ext.nunit@1.0.0
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.ext.nunit@1.0.0
         m_AssetPath: Packages/com.unity.ext.nunit
         m_Name: com.unity.ext.nunit
         m_DisplayName: Custom NUnit
@@ -1053,7 +1053,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.ext.nunit@1.0.0
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.ext.nunit@1.0.0
         m_AssetPath: Packages/com.unity.ext.nunit
         m_Name: com.unity.ext.nunit
         m_DisplayName: Custom NUnit
@@ -1115,7 +1115,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.ext.nunit@1.0.0
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.ext.nunit@1.0.0
         m_AssetPath: Packages/com.unity.ext.nunit
         m_Name: com.unity.ext.nunit
         m_DisplayName: Custom NUnit
@@ -1178,7 +1178,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -1260,7 +1260,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -1342,7 +1342,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -1424,7 +1424,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -1506,7 +1506,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -1588,7 +1588,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -1670,7 +1670,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -1752,7 +1752,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -1834,7 +1834,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -1916,7 +1916,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -1998,7 +1998,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -2080,7 +2080,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -2162,7 +2162,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.ide.vscode@1.1.0
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.ide.vscode@1.1.0
         m_AssetPath: Packages/com.unity.ide.vscode
         m_Name: com.unity.ide.vscode
         m_DisplayName: Visual Studio Code Editor
@@ -2229,7 +2229,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.ide.vscode@1.1.0
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.ide.vscode@1.1.0
         m_AssetPath: Packages/com.unity.ide.vscode
         m_Name: com.unity.ide.vscode
         m_DisplayName: Visual Studio Code Editor
@@ -2296,7 +2296,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.ide.vscode@1.1.0
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.ide.vscode@1.1.0
         m_AssetPath: Packages/com.unity.ide.vscode
         m_Name: com.unity.ide.vscode
         m_DisplayName: Visual Studio Code Editor
@@ -2363,7 +2363,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.ide.vscode@1.1.0
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.ide.vscode@1.1.0
         m_AssetPath: Packages/com.unity.ide.vscode
         m_Name: com.unity.ide.vscode
         m_DisplayName: Visual Studio Code Editor
@@ -2430,7 +2430,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.ide.vscode@1.1.0
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.ide.vscode@1.1.0
         m_AssetPath: Packages/com.unity.ide.vscode
         m_Name: com.unity.ide.vscode
         m_DisplayName: Visual Studio Code Editor
@@ -2497,7 +2497,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.ide.vscode@1.1.0
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.ide.vscode@1.1.0
         m_AssetPath: Packages/com.unity.ide.vscode
         m_Name: com.unity.ide.vscode
         m_DisplayName: Visual Studio Code Editor
@@ -2564,7 +2564,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.ide.vscode@1.1.0
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.ide.vscode@1.1.0
         m_AssetPath: Packages/com.unity.ide.vscode
         m_Name: com.unity.ide.vscode
         m_DisplayName: Visual Studio Code Editor
@@ -2695,7 +2695,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 4.0.5
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.probuilder@4.0.5
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.probuilder@4.0.5
         m_AssetPath: Packages/com.unity.probuilder
         m_Name: com.unity.probuilder
         m_DisplayName: ProBuilder
@@ -2812,7 +2812,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 4.0.5
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.probuilder@4.0.5
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.probuilder@4.0.5
         m_AssetPath: Packages/com.unity.probuilder
         m_Name: com.unity.probuilder
         m_DisplayName: ProBuilder
@@ -2929,7 +2929,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 4.0.5
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.probuilder@4.0.5
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.probuilder@4.0.5
         m_AssetPath: Packages/com.unity.probuilder
         m_Name: com.unity.probuilder
         m_DisplayName: ProBuilder
@@ -3046,7 +3046,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 4.0.5
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.probuilder@4.0.5
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.probuilder@4.0.5
         m_AssetPath: Packages/com.unity.probuilder
         m_Name: com.unity.probuilder
         m_DisplayName: ProBuilder
@@ -3163,7 +3163,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 4.0.5
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.probuilder@4.0.5
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.probuilder@4.0.5
         m_AssetPath: Packages/com.unity.probuilder
         m_Name: com.unity.probuilder
         m_DisplayName: ProBuilder
@@ -3280,7 +3280,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 4.0.5
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.probuilder@4.0.5
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.probuilder@4.0.5
         m_AssetPath: Packages/com.unity.probuilder
         m_Name: com.unity.probuilder
         m_DisplayName: ProBuilder
@@ -3397,7 +3397,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 4.0.5
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.probuilder@4.0.5
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.probuilder@4.0.5
         m_AssetPath: Packages/com.unity.probuilder
         m_Name: com.unity.probuilder
         m_DisplayName: ProBuilder
@@ -3514,7 +3514,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 4.0.5
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.probuilder@4.0.5
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.probuilder@4.0.5
         m_AssetPath: Packages/com.unity.probuilder
         m_Name: com.unity.probuilder
         m_DisplayName: ProBuilder
@@ -3631,7 +3631,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 4.0.5
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.probuilder@4.0.5
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.probuilder@4.0.5
         m_AssetPath: Packages/com.unity.probuilder
         m_Name: com.unity.probuilder
         m_DisplayName: ProBuilder
@@ -3748,7 +3748,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 4.0.5
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.probuilder@4.0.5
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.probuilder@4.0.5
         m_AssetPath: Packages/com.unity.probuilder
         m_Name: com.unity.probuilder
         m_DisplayName: ProBuilder
@@ -3865,7 +3865,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 4.0.5
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.probuilder@4.0.5
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.probuilder@4.0.5
         m_AssetPath: Packages/com.unity.probuilder
         m_Name: com.unity.probuilder
         m_DisplayName: ProBuilder
@@ -3982,7 +3982,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 4.0.5
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.probuilder@4.0.5
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.probuilder@4.0.5
         m_AssetPath: Packages/com.unity.probuilder
         m_Name: com.unity.probuilder
         m_DisplayName: ProBuilder
@@ -4099,7 +4099,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 4.0.5
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.probuilder@4.0.5
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.probuilder@4.0.5
         m_AssetPath: Packages/com.unity.probuilder
         m_Name: com.unity.probuilder
         m_DisplayName: ProBuilder
@@ -4209,7 +4209,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -4305,7 +4305,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -4401,7 +4401,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -4497,7 +4497,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -4593,7 +4593,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -4689,7 +4689,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -4785,7 +4785,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -4881,7 +4881,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -4977,7 +4977,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -5073,7 +5073,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -5169,7 +5169,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -5265,7 +5265,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -5361,7 +5361,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -5457,7 +5457,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -5553,7 +5553,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -5649,7 +5649,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -5745,7 +5745,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -5841,7 +5841,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -5937,7 +5937,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -6033,7 +6033,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -6155,7 +6155,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -6321,7 +6321,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -6487,7 +6487,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -6653,7 +6653,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -6819,7 +6819,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -6985,7 +6985,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -7151,7 +7151,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -7317,7 +7317,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -7483,7 +7483,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -7649,7 +7649,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -7815,7 +7815,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -7981,7 +7981,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -8147,7 +8147,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -8313,7 +8313,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -8479,7 +8479,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -8645,7 +8645,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -8811,7 +8811,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -8977,7 +8977,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -9143,7 +9143,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -9309,7 +9309,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -9475,7 +9475,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -9641,7 +9641,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -9807,7 +9807,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -9973,7 +9973,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -10139,7 +10139,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -10305,7 +10305,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -10471,7 +10471,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -10637,7 +10637,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -12725,7 +12725,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.2.16
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.collab-proxy@1.2.16
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.collab-proxy@1.2.16
         m_AssetPath: Packages/com.unity.collab-proxy
         m_Name: com.unity.collab-proxy
         m_DisplayName: Unity Collaborate
@@ -12805,7 +12805,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.2.16
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.collab-proxy@1.2.16
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.collab-proxy@1.2.16
         m_AssetPath: Packages/com.unity.collab-proxy
         m_Name: com.unity.collab-proxy
         m_DisplayName: Unity Collaborate
@@ -12885,7 +12885,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.2.16
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.collab-proxy@1.2.16
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.collab-proxy@1.2.16
         m_AssetPath: Packages/com.unity.collab-proxy
         m_Name: com.unity.collab-proxy
         m_DisplayName: Unity Collaborate
@@ -12965,7 +12965,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.2.16
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.collab-proxy@1.2.16
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.collab-proxy@1.2.16
         m_AssetPath: Packages/com.unity.collab-proxy
         m_Name: com.unity.collab-proxy
         m_DisplayName: Unity Collaborate
@@ -13045,7 +13045,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.2.16
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.collab-proxy@1.2.16
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.collab-proxy@1.2.16
         m_AssetPath: Packages/com.unity.collab-proxy
         m_Name: com.unity.collab-proxy
         m_DisplayName: Unity Collaborate
@@ -13125,7 +13125,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.ext.nunit@1.0.0
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.ext.nunit@1.0.0
         m_AssetPath: Packages/com.unity.ext.nunit
         m_Name: com.unity.ext.nunit
         m_DisplayName: Custom NUnit
@@ -13187,7 +13187,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.ext.nunit@1.0.0
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.ext.nunit@1.0.0
         m_AssetPath: Packages/com.unity.ext.nunit
         m_Name: com.unity.ext.nunit
         m_DisplayName: Custom NUnit
@@ -13249,7 +13249,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.ext.nunit@1.0.0
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.ext.nunit@1.0.0
         m_AssetPath: Packages/com.unity.ext.nunit
         m_Name: com.unity.ext.nunit
         m_DisplayName: Custom NUnit
@@ -13311,7 +13311,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.ext.nunit@1.0.0
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.ext.nunit@1.0.0
         m_AssetPath: Packages/com.unity.ext.nunit
         m_Name: com.unity.ext.nunit
         m_DisplayName: Custom NUnit
@@ -13374,7 +13374,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -13456,7 +13456,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -13538,7 +13538,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -13620,7 +13620,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -13702,7 +13702,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -13784,7 +13784,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -13866,7 +13866,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -13948,7 +13948,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -14030,7 +14030,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -14112,7 +14112,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -14194,7 +14194,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -14276,7 +14276,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -14358,7 +14358,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.ide.vscode@1.1.0
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.ide.vscode@1.1.0
         m_AssetPath: Packages/com.unity.ide.vscode
         m_Name: com.unity.ide.vscode
         m_DisplayName: Visual Studio Code Editor
@@ -14425,7 +14425,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.ide.vscode@1.1.0
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.ide.vscode@1.1.0
         m_AssetPath: Packages/com.unity.ide.vscode
         m_Name: com.unity.ide.vscode
         m_DisplayName: Visual Studio Code Editor
@@ -14492,7 +14492,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.ide.vscode@1.1.0
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.ide.vscode@1.1.0
         m_AssetPath: Packages/com.unity.ide.vscode
         m_Name: com.unity.ide.vscode
         m_DisplayName: Visual Studio Code Editor
@@ -14559,7 +14559,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.ide.vscode@1.1.0
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.ide.vscode@1.1.0
         m_AssetPath: Packages/com.unity.ide.vscode
         m_Name: com.unity.ide.vscode
         m_DisplayName: Visual Studio Code Editor
@@ -14626,7 +14626,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.ide.vscode@1.1.0
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.ide.vscode@1.1.0
         m_AssetPath: Packages/com.unity.ide.vscode
         m_Name: com.unity.ide.vscode
         m_DisplayName: Visual Studio Code Editor
@@ -14693,7 +14693,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.ide.vscode@1.1.0
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.ide.vscode@1.1.0
         m_AssetPath: Packages/com.unity.ide.vscode
         m_Name: com.unity.ide.vscode
         m_DisplayName: Visual Studio Code Editor
@@ -14760,7 +14760,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.ide.vscode@1.1.0
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.ide.vscode@1.1.0
         m_AssetPath: Packages/com.unity.ide.vscode
         m_Name: com.unity.ide.vscode
         m_DisplayName: Visual Studio Code Editor
@@ -14891,7 +14891,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 4.0.5
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.probuilder@4.0.5
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.probuilder@4.0.5
         m_AssetPath: Packages/com.unity.probuilder
         m_Name: com.unity.probuilder
         m_DisplayName: ProBuilder
@@ -15008,7 +15008,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 4.0.5
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.probuilder@4.0.5
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.probuilder@4.0.5
         m_AssetPath: Packages/com.unity.probuilder
         m_Name: com.unity.probuilder
         m_DisplayName: ProBuilder
@@ -15125,7 +15125,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 4.0.5
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.probuilder@4.0.5
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.probuilder@4.0.5
         m_AssetPath: Packages/com.unity.probuilder
         m_Name: com.unity.probuilder
         m_DisplayName: ProBuilder
@@ -15242,7 +15242,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 4.0.5
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.probuilder@4.0.5
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.probuilder@4.0.5
         m_AssetPath: Packages/com.unity.probuilder
         m_Name: com.unity.probuilder
         m_DisplayName: ProBuilder
@@ -15359,7 +15359,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 4.0.5
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.probuilder@4.0.5
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.probuilder@4.0.5
         m_AssetPath: Packages/com.unity.probuilder
         m_Name: com.unity.probuilder
         m_DisplayName: ProBuilder
@@ -15476,7 +15476,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 4.0.5
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.probuilder@4.0.5
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.probuilder@4.0.5
         m_AssetPath: Packages/com.unity.probuilder
         m_Name: com.unity.probuilder
         m_DisplayName: ProBuilder
@@ -15593,7 +15593,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 4.0.5
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.probuilder@4.0.5
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.probuilder@4.0.5
         m_AssetPath: Packages/com.unity.probuilder
         m_Name: com.unity.probuilder
         m_DisplayName: ProBuilder
@@ -15710,7 +15710,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 4.0.5
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.probuilder@4.0.5
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.probuilder@4.0.5
         m_AssetPath: Packages/com.unity.probuilder
         m_Name: com.unity.probuilder
         m_DisplayName: ProBuilder
@@ -15827,7 +15827,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 4.0.5
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.probuilder@4.0.5
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.probuilder@4.0.5
         m_AssetPath: Packages/com.unity.probuilder
         m_Name: com.unity.probuilder
         m_DisplayName: ProBuilder
@@ -15944,7 +15944,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 4.0.5
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.probuilder@4.0.5
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.probuilder@4.0.5
         m_AssetPath: Packages/com.unity.probuilder
         m_Name: com.unity.probuilder
         m_DisplayName: ProBuilder
@@ -16061,7 +16061,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 4.0.5
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.probuilder@4.0.5
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.probuilder@4.0.5
         m_AssetPath: Packages/com.unity.probuilder
         m_Name: com.unity.probuilder
         m_DisplayName: ProBuilder
@@ -16178,7 +16178,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 4.0.5
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.probuilder@4.0.5
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.probuilder@4.0.5
         m_AssetPath: Packages/com.unity.probuilder
         m_Name: com.unity.probuilder
         m_DisplayName: ProBuilder
@@ -16295,7 +16295,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 4.0.5
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.probuilder@4.0.5
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.probuilder@4.0.5
         m_AssetPath: Packages/com.unity.probuilder
         m_Name: com.unity.probuilder
         m_DisplayName: ProBuilder
@@ -16405,7 +16405,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -16501,7 +16501,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -16597,7 +16597,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -16693,7 +16693,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -16789,7 +16789,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -16885,7 +16885,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -16981,7 +16981,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -17077,7 +17077,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -17173,7 +17173,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -17269,7 +17269,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -17365,7 +17365,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -17461,7 +17461,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -17557,7 +17557,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -17653,7 +17653,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -17749,7 +17749,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -17845,7 +17845,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -17941,7 +17941,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -18037,7 +18037,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -18133,7 +18133,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -18229,7 +18229,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -18351,7 +18351,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -18517,7 +18517,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -18683,7 +18683,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -18849,7 +18849,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -19015,7 +19015,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -19181,7 +19181,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -19347,7 +19347,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -19513,7 +19513,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -19679,7 +19679,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -19845,7 +19845,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -20011,7 +20011,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -20177,7 +20177,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -20343,7 +20343,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -20509,7 +20509,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -20675,7 +20675,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -20841,7 +20841,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -21007,7 +21007,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -21173,7 +21173,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -21339,7 +21339,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -21505,7 +21505,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -21671,7 +21671,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -21837,7 +21837,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -22003,7 +22003,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -22169,7 +22169,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -22335,7 +22335,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -22501,7 +22501,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -22667,7 +22667,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -22833,7 +22833,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Outil Prototypage\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -129176,8 +129176,8 @@ MonoBehaviour:
         m_HideInEditor: 1
         m_DatePublishedTicks: 636959593270000000
       IsInstalled: 0
-    listPackagesVersion: 12
-    listPackagesOfflineVersion: 11
+    listPackagesVersion: 36
+    listPackagesOfflineVersion: 35
     searchOperationOngoing: 1
     listOperationOngoing: 0
     listOperationOfflineOngoing: 0
@@ -129411,22 +129411,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 13}
-  - {fileID: 17}
+  m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 0
-    y: 621
-    width: 1531
-    height: 326
-  m_MinSize: {x: 204, y: 122}
-  m_MaxSize: {x: 8004, y: 4022}
-  vertical: 0
-  controlID: 22003
+    x: 893
+    y: 0
+    width: 595
+    height: 621
+  m_MinSize: {x: 204, y: 222}
+  m_MaxSize: {x: 4004, y: 4022}
+  m_ActualView: {fileID: 2}
+  m_Panes:
+  - {fileID: 2}
+  m_Selected: 0
+  m_LastSelected: 0
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -129443,18 +129444,19 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 0
-    width: 1021
+    y: 621
+    width: 1488
     height: 326
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 15}
+  m_MinSize: {x: 232, y: 272}
+  m_MaxSize: {x: 10002, y: 10022}
+  m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
   - {fileID: 15}
   - {fileID: 16}
-  m_Selected: 1
-  m_LastSelected: 0
+  - {fileID: 17}
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -129478,7 +129480,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 694
-    width: 1531
+    width: 1488
     height: 307
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
@@ -129494,20 +129496,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Dylan/Anims/Enemis
+    - Assets/Julie/GAJulie/tests
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Dylan/Anims/Enemis
+  - Assets/Julie/GAJulie/tests
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: D:\Outil Prototypage\RepairJam
+  m_LastProjectPath: D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 193}
-    m_SelectedIDs: cc310000
-    m_LastClickedID: 12748
-    m_ExpandedIDs: 00000000aa2f00000e3000001230000010310000aa3200007a330000c2330000e633000084340000e834000000ca9a3b
+    scrollPos: {x: 0, y: 209}
+    m_SelectedIDs: 763d0000
+    m_LastClickedID: 15734
+    m_ExpandedIDs: 00000000d03c0000383d00003c3d0000363e0000b43f0000d03f000074400000bc400000e040000084410000ec41000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -129535,7 +129537,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000aa2f00000e3000001230000010310000aa3200007a330000c2330000e633000084340000e834000000ca9a3b
+    m_ExpandedIDs: 00000000d03c0000383d00003c3d0000363e0000d03f000074400000bc400000e040000084410000ec41000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -129560,9 +129562,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 56fbffff
-    m_LastClickedInstanceID: -1194
-    m_HadKeyboardFocusLastEvent: 1
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c62300007e450000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -129614,7 +129616,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 694
-    width: 1021
+    width: 1531
     height: 307
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &16
@@ -129645,34 +129647,8 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -1274
+  m_LastSelectedObjectID: 17842
 --- !u!114 &17
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 1021
-    y: 0
-    width: 510
-    height: 326
-  m_MinSize: {x: 104, y: 122}
-  m_MaxSize: {x: 4004, y: 4022}
-  m_ActualView: {fileID: 18}
-  m_Panes:
-  - {fileID: 18}
-  m_Selected: 0
-  m_LastSelected: 0
---- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -129693,9 +129669,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1021
+    x: 0
     y: 694
-    width: 508
+    width: 1531
     height: 307
   m_ViewDataDictionary: {fileID: 0}
   m_ViewTransforms:
@@ -129770,7 +129746,7 @@ MonoBehaviour:
   m_CurrentEditor: 1
   m_LayerEditor:
     m_SelectedLayerIndex: 0
---- !u!114 &19
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -129785,18 +129761,18 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1531
+    x: 1488
     y: 0
-    width: 389
+    width: 432
     height: 947
-  m_MinSize: {x: 277, y: 72}
-  m_MaxSize: {x: 4002, y: 4022}
-  m_ActualView: {fileID: 20}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 19}
   m_Panes:
-  - {fileID: 20}
+  - {fileID: 19}
   m_Selected: 0
   m_LastSelected: 0
---- !u!114 &20
+--- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -129817,9 +129793,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1531
+    x: 1488
     y: 73
-    width: 387
+    width: 430
     height: 928
   m_ViewDataDictionary: {fileID: 0}
   m_OpenAddComponentMenu: 0
