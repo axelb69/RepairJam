@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class Repair : MonoBehaviour
 {
+    [SerializeField] private Sprite[] statSprite;
+    private int stat = 0;
+    private int _lifePoints = 0;
     private List<bool> _caseTake = new List<bool> { false,  false,  false};
     public List<bool> caseTake
     {
@@ -19,14 +22,16 @@ public class Repair : MonoBehaviour
     private Transform[] statePos;
     void Start()
     {
+
         //Debug.Log(TerrainManager.Instance.builds);
         TerrainManager.Instance.builds.Add(transform);
         EnnemisManager.Instance.destination = transform;
     }
 
     // Update is called once per frame
-    void Update()
+    public void Upgrade()
     {
-        
+
     }
+
 }
