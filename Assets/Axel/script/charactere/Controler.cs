@@ -17,8 +17,8 @@ public class Controler : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.E) && other.gameObject.layer == 8)
         {
-            InventoryManager.Instance.slots[1] += 1;
-            //Debug.Log(InventoryManager.Instance.slots[1]);
+            InventoryManager.Instance.slots[1] += 2;
+           Debug.Log(InventoryManager.Instance.slots[1]);
             TerrainManager.Instance.builds[TerrainManager.Instance.builds.IndexOf(other.gameObject.transform)].transform.position +=  Vector3.up;
         }
     }

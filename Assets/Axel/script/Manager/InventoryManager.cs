@@ -6,7 +6,14 @@ using Engine.Utils;
 public class InventoryManager : Singleton<InventoryManager>
 {
     private List<int> _slots = new List<int> { 0, 0, 0 };
-    public List<int> slots { get { return _slots; } set { FillDictionary(); Debug.Log(value); _slots = value; } }
+    public List<int> slots {
+        get {
+            return _slots; }
+        set {
+            FillDictionary();
+            Debug.Log(value);
+            _slots = value;
+        } }
     public Dictionary<string, int> _inventory = new Dictionary<string, int>();
 
     private void FillDictionary()
