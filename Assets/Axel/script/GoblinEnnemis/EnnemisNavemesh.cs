@@ -7,13 +7,27 @@ public class EnnemisNavemesh : MonoBehaviour
 {
     private NavMeshAgent _angent;
     private Vector3 _destination = Vector3.zero;
+
+    [SerializeField]
+    private SpriteRenderer spriteRenderer;
+
     private float _wait;
+
+    public enum State{FindATarget, GoToTarget, Destruct}
+    public State state;
+
+    Rigidbody rb;
+
+    [SerializeField]
+    private Animator animator;
+
     // Start is called before the first frame update
     void Start()
     {
         _wait = Time.time;
         _angent = GetComponent<NavMeshAgent>();
         float _size = TerrainManager.Instance.size;
+        rb = GetComponent<Rigidbody>();
         foreach (Transform t in TerrainManager.Instance.builds)
         {
             Repair build = t.GetComponent<Repair>();
@@ -38,11 +52,53 @@ public class EnnemisNavemesh : MonoBehaviour
             }
         }
         _angent.SetDestination(_destination);
+        ChangeState(State.GoToTarget);
     }
 
     // Update is called once per frame
+    void FixedUpdate()
+    {
+        switch(state)
+        {
+            case State.GoToTarget:
+            if(_angent.remainingDistance < 0.1f)
+            {
+                ChangeState(State.Destruct);
+            }
+            break;
+        }
+    }
+
     void Update()
     {
-        
+        if(_angent.velocity.z >= 0)
+        {
+            animator.SetBool("WalkUp", true);
+            animator.SetBool("WalkDown", false);
+        }
+        else if(_angent.velocity.z < 0)
+        {
+            animator.SetBool("WalkDown", true);
+            animator.SetBool("WalkUp", false);
+        }
+
+        if(_angent.velocity.x > 0)
+        {
+            spriteRenderer.flipX = true;
+        }
+        else if(_angent.velocity.x < 0)
+        {
+            spriteRenderer.flipX = false;
+        }
+    }
+
+    void ChangeState(State newState)
+    {
+        switch(newState)
+        {
+            case State.Destruct:
+            _angent.isStopped = true;
+            break;
+        }
     }
 }
