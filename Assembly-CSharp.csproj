@@ -67,6 +67,8 @@
      <Compile Include="Assets\Dylan\DylanScripts\LootRessources.cs" />
      <Compile Include="Assets\Dylan\DylanScripts\MainMenu.cs" />
      <Compile Include="Assets\Dylan\DylanScripts\ShowRessources.cs" />
+     <Compile Include="Assets\Julie\ScriptsJulie\HouseConstructionTime.cs" />
+     <Compile Include="Assets\Julie\Waves\WavesManager.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>D:/Outil Prototypage/RepairJam/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
@@ -91,6 +93,9 @@
  <Reference Include="Unity.Rider.Editor">
  <HintPath>D:/Outil Prototypage/RepairJam/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.2D.Sprite.Editor">
+ <HintPath>D:/Outil Prototypage/RepairJam/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.ProBuilder.AddOns.Editor">
  <HintPath>D:/Outil Prototypage/RepairJam/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
  </Reference>
@@ -99,9 +104,6 @@
  </Reference>
  <Reference Include="UnityEditor.UI">
  <HintPath>D:/Outil Prototypage/RepairJam/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
- </Reference>
- <Reference Include="Unity.2D.Sprite.Editor">
- <HintPath>D:/Outil Prototypage/RepairJam/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

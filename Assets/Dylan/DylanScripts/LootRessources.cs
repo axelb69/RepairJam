@@ -18,7 +18,6 @@ public class LootRessources : MonoBehaviour
 
     void OnTriggerEnter(Collider col)
     {
-        if(col.gameObject.layer == 8)
         InventoryManager.Instance.slots[0] += 1;
         Destroy(col.gameObject, 0.1f);
     }
