@@ -52,7 +52,7 @@ public class EnnemisNavemesh : MonoBehaviour
             }
         }
         _angent.SetDestination(_destination);
-        ChangeState(State.GoToTarget);
+        StartCoroutine("Timer");
     }
 
     // Update is called once per frame
@@ -82,11 +82,11 @@ public class EnnemisNavemesh : MonoBehaviour
             animator.SetBool("WalkUp", false);
         }
 
-        if(_angent.velocity.x > 0)
+        if(_angent.velocity.x < 0)
         {
             spriteRenderer.flipX = true;
         }
-        else if(_angent.velocity.x < 0)
+        else if(_angent.velocity.x > 0)
         {
             spriteRenderer.flipX = false;
         }
@@ -96,9 +96,20 @@ public class EnnemisNavemesh : MonoBehaviour
     {
         switch(newState)
         {
+            case State.GoToTarget:
+            break;
+
             case State.Destruct:
             _angent.isStopped = true;
+            animator.SetBool("Hit", true);
             break;
         }
+        state = newState;
+    }
+
+    IEnumerator Timer()
+    {
+        yield return new WaitForSeconds(0.01f);
+        ChangeState(State.GoToTarget);
     }
 }

@@ -18,7 +18,10 @@ public class LootRessources : MonoBehaviour
 
     void OnTriggerEnter(Collider col)
     {
-        InventoryManager.Instance.slots[0] += 1;
+        InventoryManager.Instance.slots[0] += col.GetComponent<RessourcesInformations>().ressourcesInformations[0];
+        InventoryManager.Instance.slots[1] += col.GetComponent<RessourcesInformations>().ressourcesInformations[1];
+        InventoryManager.Instance.slots[2] += col.GetComponent<RessourcesInformations>().ressourcesInformations[2];
+        
         Destroy(col.gameObject, 0.1f);
     }
 }

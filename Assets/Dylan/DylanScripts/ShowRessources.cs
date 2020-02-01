@@ -25,6 +25,6 @@ public class ShowRessources : MonoBehaviour
     {
         woodText.text = InventoryManager.Instance.slots[0].ToString();
         stoneText.text = InventoryManager.Instance.slots[1].ToString();
-        boneText.text = InventoryManager.Instance.slots[1].ToString();
+        boneText.text = InventoryManager.Instance.slots[2].ToString();
     }
 }
