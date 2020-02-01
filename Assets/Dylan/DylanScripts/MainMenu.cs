@@ -26,4 +26,14 @@ public class MainMenu : MonoBehaviour
     {
         EditorSceneManager.LoadScene(1);
     }
+
+    public void Restart()
+    {
+        EditorSceneManager.LoadScene(EditorSceneManager.GetActiveScene().buildIndex);
+    }
+
+    public void ReturnToMenu()
+    {
+        EditorSceneManager.LoadScene(0);
+    }
 }
