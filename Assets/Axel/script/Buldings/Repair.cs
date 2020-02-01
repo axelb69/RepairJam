@@ -7,7 +7,8 @@ public class Repair : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        Debug.Log(TerrainManager.Instance.builds);
+        TerrainManager.Instance.builds.Add(transform);
     }
 
     // Update is called once per frame
