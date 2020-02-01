@@ -28,7 +28,6 @@ public class EnnemisMoves : MonoBehaviour
     {
         if (Mathf.Abs(transform.position.x - target.position.x) == Mathf.Abs(transform.position.z - target.position.z))
         {
-            Debug.Log("1");
             return transform.position - new Vector3((transform.position.x - target.position.x)/Mathf.Abs((transform.position.x - target.position.x) * 4) ,
                 0,
                 (transform.position.z - target.position.z) / Mathf.Abs((transform.position.z - target.position.z) * 4));
