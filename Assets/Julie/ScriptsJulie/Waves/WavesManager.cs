@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class WavesManager : Singleton<WavesManager>
 {
+    [SerializeField] private int _wave = 1;
+
     //Tps de constructions des maisons en SECONDES
    [SerializeField] private AnimationCurve _houseConstructTime = AnimationCurve.Linear(0, 1, 15, 10);
    public AnimationCurve houseConstructTime { get { return _houseConstructTime; } set { _houseConstructTime = value; } }
@@ -31,7 +33,7 @@ public class WavesManager : Singleton<WavesManager>
 
     //PV - DEGATS --> ennemis & temps pour mourir en SECONDES
     [SerializeField] private int _mobsPVDmg = 0;
-    [SerializeField] private int _mobsDeathTime = 0;
+    [SerializeField] private float _mobsDeathTime = 0f;
 
     //PV - MAX huttes
     [SerializeField] private AnimationCurve _maxPVHouse = AnimationCurve.Linear(0, 2, 15, 30);

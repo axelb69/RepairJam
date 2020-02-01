@@ -8,6 +8,7 @@ public class Controler : MonoBehaviour
     [SerializeField] private Rigidbody _rb = null;
     [SerializeField] private Animator _anim = null;
 
+    private Repair _focus = null;
     enum State{Normal, Build}
     State state;
 
@@ -63,7 +64,9 @@ public class Controler : MonoBehaviour
             //_anim.SetBool("HIT", true);
             //InventoryManager.Instance.slots[1] += 2;
             //Debug.Log(_anim.GetBool("HIT"));
-            //TerrainManager.Instance.builds[TerrainManager.Instance.builds.IndexOf(other.gameObject.transform)].transform.position +=  Vector3.up;
+            _focus = other.gameObject.transform.GetComponent<Repair>();
+            
+            
         }
         //else _anim.SetBool("HIT", false);
     }
@@ -74,6 +77,7 @@ public class Controler : MonoBehaviour
         {
             case State.Normal:
             _anim.SetBool("HIT", false);
+                _focus.stat = 2;
             break;
 
             case State.Build:

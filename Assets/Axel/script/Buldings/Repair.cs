@@ -4,6 +4,21 @@ using UnityEngine;
 
 public class Repair : MonoBehaviour
 {
+    [SerializeField] private Sprite[] _statSprite;
+    [SerializeField] private SpriteRenderer _render;
+    private int _stat = 0;
+    public int stat
+    {
+        get
+        {
+            return _stat;
+        }
+        set
+        {
+            _stat = value;
+        }
+    }
+    private int _lifePoints = 0;
     private List<bool> _caseTake = new List<bool> { false,  false,  false};
     public List<bool> caseTake
     {
@@ -19,14 +34,19 @@ public class Repair : MonoBehaviour
     private Transform[] statePos;
     void Start()
     {
-        //Debug.Log(TerrainManager.Instance.builds);
-        TerrainManager.Instance.builds.Add(transform);
-        EnnemisManager.Instance.destination = transform;
+        SetAsset();
     }
 
     // Update is called once per frame
-    void Update()
+    public void Upgrade()
     {
-        
+        TerrainManager.Instance.builds.Add(transform);
+        EnnemisManager.Instance.destination = transform;
+        _stat = 2;
     }
+    private void SetAsset()
+    {
+        _render.sprite = _statSprite[_stat];                 
+    }
+
 }

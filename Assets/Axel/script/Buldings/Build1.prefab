@@ -96,7 +96,7 @@ GameObject:
   - component: {fileID: 2041622111}
   - component: {fileID: 355856976}
   m_Layer: 8
-  m_Name: Build
+  m_Name: Build1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -188,6 +188,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: afd8c2f65210a9a49a9870b8b149ebce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _statSprite:
+  - {fileID: 21300000, guid: 929fed6b750f36d45b7b17b6aa52b87e, type: 3}
+  - {fileID: 21300000, guid: 64a34315a168a8449baf0ed9712daf82, type: 3}
+  - {fileID: 21300000, guid: 9a1887adbfd9b654dbfe6214fc01d36e, type: 3}
+  _render: {fileID: 3343290803257741458}
 --- !u!54 &2041622111
 Rigidbody:
   m_ObjectHideFlags: 0
