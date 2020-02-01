@@ -14,15 +14,6 @@ public class ShowRessources : MonoBehaviour
     [SerializeField]
     private Text boneText;
 
-    [Range(0, 100)]
-    public float woodValue = 5;
-
-    [Range(0, 100)]
-    public float stoneValue = 5;
-
-    [Range(0, 100)]
-    public float boneValue = 5;
-
     // Start is called before the first frame update
     void Start()
     {
@@ -32,8 +23,8 @@ public class ShowRessources : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        woodText.text = woodValue.ToString();
-        stoneText.text = stoneValue.ToString();
-        boneText.text = boneValue.ToString();
+        woodText.text = InventoryManager.Instance.slots[0].ToString();
+        stoneText.text = InventoryManager.Instance.slots[1].ToString();
+        boneText.text = InventoryManager.Instance.slots[1].ToString();
     }
 }

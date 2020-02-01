@@ -15,4 +15,10 @@ public class LootRessources : MonoBehaviour
     {
         
     }
+
+    void OnTriggerEnter(Collider col)
+    {
+        InventoryManager.Instance.slots[0] += 1;
+        Destroy(col.gameObject, 0.1f);
+    }
 }

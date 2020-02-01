@@ -57,6 +57,7 @@
      <Compile Include="Assets\Axel\script\charactere\Controler.cs" />
      <Compile Include="Assets\Axel\script\GoblinEnnemis\EnnemisMoves.cs" />
      <Compile Include="Assets\Axel\script\GoblinEnnemis\EnnemisNavemesh.cs" />
+     <Compile Include="Assets\Axel\script\Manager\InventoryManager.cs" />
      <Compile Include="Assets\Axel\script\Manager\Singleton.cs" />
      <Compile Include="Assets\Axel\script\Manager\TerrainManager.cs" />
      <Compile Include="Assets\Axel\script\Manager\TheGameManager.cs" />
