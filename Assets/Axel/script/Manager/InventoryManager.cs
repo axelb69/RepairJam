@@ -5,6 +5,10 @@ using Engine.Utils;
 
 public class InventoryManager : Singleton<InventoryManager>
 {
+    [SerializeField] private int _boneInv = 0;
+    [SerializeField] private int _stoneInv = 0;
+    [SerializeField] private int _woodInv = 0;
+
     private List<int> _slots = new List<int> { 0, 0, 0 };
     public List<int> slots {
         get {
