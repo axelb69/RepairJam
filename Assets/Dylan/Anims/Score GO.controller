@@ -9,7 +9,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: Big Gain
+    m_ConditionEvent: Gain
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -1877135911002667581}
@@ -83,7 +83,7 @@ AnimatorController:
   m_Name: Score GO
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: Big Gain
+  - m_Name: Gain
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
