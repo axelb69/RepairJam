@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Dylan/MainMenu.unity
+    guid: 1cd5069f5d7175d4f852183b32529635
   m_configObjects: {}
