@@ -63,6 +63,7 @@
      <Compile Include="Assets\Axel\script\Manager\Singleton.cs" />
      <Compile Include="Assets\Axel\script\Manager\TerrainManager.cs" />
      <Compile Include="Assets\Axel\script\Manager\TheGameManager.cs" />
+     <Compile Include="Assets\Dylan\DylanScripts\AudioManager.cs" />
      <Compile Include="Assets\Dylan\DylanScripts\FollowMouse.cs" />
      <Compile Include="Assets\Dylan\DylanScripts\GameOverMenu.cs" />
      <Compile Include="Assets\Dylan\DylanScripts\LootRessources.cs" />
