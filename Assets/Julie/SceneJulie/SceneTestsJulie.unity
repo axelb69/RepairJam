@@ -11554,6 +11554,11 @@ PrefabInstance:
       propertyPath: _price.Array.data[1]
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 6679951992046191217, guid: 12cf8e6a237c95f46aea2cb41cf20583,
+        type: 3}
+      propertyPath: goodHouse
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2478702506623919315, guid: 12cf8e6a237c95f46aea2cb41cf20583,
         type: 3}
       propertyPath: playOnAwake
