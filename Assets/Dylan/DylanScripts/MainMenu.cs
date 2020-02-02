@@ -1,13 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEditor.SceneManagement;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class MainMenu : MonoBehaviour
 {
     [SerializeField]
     private Text scoreText;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -22,7 +23,10 @@ public class MainMenu : MonoBehaviour
 
     void OnEnable()
     {
-        transform.GetChild(5).GetChild(1).GetComponent<Text>().text = scoreText.text;
+        if(transform.GetChild(5).GetChild(1).GetComponent<Text>())
+        {
+            transform.GetChild(5).GetChild(1).GetComponent<Text>().text = scoreText.text;
+        }
     }
 
     public void QuitGame()
@@ -32,16 +36,16 @@ public class MainMenu : MonoBehaviour
 
     public void NewGame()
     {
-        EditorSceneManager.LoadScene(1);
+        SceneManager.LoadScene(1);
     }
 
     public void Restart()
     {
-        EditorSceneManager.LoadScene(EditorSceneManager.GetActiveScene().buildIndex);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     public void ReturnToMenu()
     {
-        EditorSceneManager.LoadScene(0);
+        SceneManager.LoadScene(0);
     }
 }
