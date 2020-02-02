@@ -6,6 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Axel/SceneTests 1/axelbubul.unity
-    guid: 562bd6094b3aea448b51add77a6ebb31
+    path: Assets/Dylan/MainMenu.unity
+    guid: 1cd5069f5d7175d4f852183b32529635
+  - enabled: 1
+    path: Assets/Julie/SceneJulie/Intro.unity
+    guid: de9f61d36be33544ab7473bab2d4bd00
+  - enabled: 1
+    path: Assets/Julie/SceneJulie/SceneTestsJulie.unity
+    guid: 2c8531ff147c35f47a6c96d6bb983ecb
+  - enabled: 1
+    path: Assets/win.unity
+    guid: 5076a468b6497254b90b4619523212a4
+  - enabled: 1
+    path: Assets/loose.unity
+    guid: 647b26ad2875bea418184846a923335a
   m_configObjects: {}
