@@ -193,6 +193,10 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 64a34315a168a8449baf0ed9712daf82, type: 3}
   - {fileID: 21300000, guid: 9a1887adbfd9b654dbfe6214fc01d36e, type: 3}
   _render: {fileID: 3343290803257741458}
+  _clone:
+  - {fileID: 9136090249337946982, guid: 71ad5d3e094ed7e4f9409ec4bf14d997, type: 3}
+  - {fileID: 9136090249337946982, guid: af5c8b0512afe464a8556eef308dac6a, type: 3}
+  - {fileID: 9136090249337946982, guid: 39b2a067087a2e340ace8f8e5b26457f, type: 3}
 --- !u!54 &2041622111
 Rigidbody:
   m_ObjectHideFlags: 0

@@ -6,7 +6,7 @@ public class Repair : MonoBehaviour
 {
     [SerializeField] private Sprite[] _statSprite;
     [SerializeField] private SpriteRenderer _render;
-    [SerializeField] private GameObject _clone = null;
+    [SerializeField] private GameObject[] _clone = null;
     private int _stat = 0;
     public int stat
     {
@@ -37,6 +37,7 @@ public class Repair : MonoBehaviour
     void Start()
     {
         TheGameManager.Instance.repair = this;
+        loot();
         SetAsset();
     }
 
@@ -68,10 +69,17 @@ public class Repair : MonoBehaviour
             _stat = 0;
             SetAsset();
             TerrainManager.Instance.builds.Remove(transform);
+            loot();
         }
     }
     private void loot()
     {
-        Instantiate(_clone, transform.position + Vector3.down * TerrainManager.Instance.size, Quaternion.identity, transform);
+        GameObject loot;
+        loot = Instantiate(_clone[0], transform.position + Vector3.right * TerrainManager.Instance.size, Quaternion.identity, transform);
+        loot.GetComponent<bone>().cunt = 3;
+        loot = Instantiate(_clone[1], transform.position + Vector3.left * TerrainManager.Instance.size, Quaternion.identity, transform);
+        loot.GetComponent<stone>().cunt = 3;
+        loot = Instantiate(_clone[2], transform.position + Vector3.back * TerrainManager.Instance.size, Quaternion.identity, transform);
+        loot.GetComponent<Wood>().cunt = 3;
     }
 }
