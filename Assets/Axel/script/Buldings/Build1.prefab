@@ -96,8 +96,8 @@ GameObject:
   - component: {fileID: 2041622111}
   - component: {fileID: 355856976}
   - component: {fileID: 4963173578308222916}
-  - component: {fileID: 2478702506623919315}
-  - component: {fileID: 7296265280182139054}
+  - component: {fileID: 7445274166388475621}
+  - component: {fileID: 7238896321969039326}
   m_Layer: 8
   m_Name: Build1
   m_TagString: Untagged
@@ -249,7 +249,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.24, y: 1.21, z: 1.31}
   m_Center: {x: 0.013273138, y: 0, z: 0.008813518}
---- !u!198 &2478702506623919315
+--- !u!198 &7445274166388475621
 ParticleSystem:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -257,17 +257,17 @@ ParticleSystem:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7421649731713804176}
   serializedVersion: 6
-  lengthInSec: 1
+  lengthInSec: 5
   simulationSpeed: 1
   stopAction: 0
   cullingMode: 0
   ringBufferMode: 0
   ringBufferLoopRange: {x: 0, y: 1}
-  looping: 0
+  looping: 1
   prewarm: 0
-  playOnAwake: 0
+  playOnAwake: 1
   useUnscaledTime: 0
-  autoRandomSeed: 0
+  autoRandomSeed: 1
   useRigidbodyForVelocity: 1
   startDelay:
     serializedVersion: 2
@@ -332,7 +332,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 1
+      scalar: 5
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -817,9 +817,9 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     randomizeRotationDirection: 0
-    maxNumParticles: 1
+    maxNumParticles: 1000
     size3D: 0
-    rotation3D: 1
+    rotation3D: 0
     gravityModifier:
       serializedVersion: 2
       minMaxState: 0
@@ -876,7 +876,7 @@ ParticleSystem:
   ShapeModule:
     serializedVersion: 6
     enabled: 1
-    type: 13
+    type: 4
     angle: 25
     length: 5
     boxThickness: {x: 0, y: 0, z: 0}
@@ -1082,7 +1082,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 1
+      scalar: 10
       minScalar: 10
       maxCurve:
         serializedVersion: 2
@@ -1580,8 +1580,8 @@ ParticleSystem:
     serializedVersion: 2
     enabled: 1
     mode: 1
-    timeMode: 2
-    fps: 2
+    timeMode: 0
+    fps: 30
     frameOverTime:
       serializedVersion: 2
       minMaxState: 1
@@ -1693,24 +1693,16 @@ ParticleSystem:
     tilesY: 1
     animationType: 0
     rowIndex: 0
-    cycles: 6
+    cycles: 1
     uvChannelMask: -1
     rowMode: 1
     sprites:
     - sprite: {fileID: -8232342048647982350, guid: 5e068320fa09d29499b07b204d6b24df,
         type: 3}
-    - sprite: {fileID: -5694353668628652543, guid: 5e068320fa09d29499b07b204d6b24df,
-        type: 3}
-    - sprite: {fileID: -5236557006246396427, guid: 5e068320fa09d29499b07b204d6b24df,
-        type: 3}
-    - sprite: {fileID: 5940955249214482797, guid: 5e068320fa09d29499b07b204d6b24df,
-        type: 3}
-    - sprite: {fileID: 7767324931613504953, guid: 5e068320fa09d29499b07b204d6b24df,
-        type: 3}
     flipU: 0
     flipV: 0
   VelocityModule:
-    enabled: 1
+    enabled: 0
     x:
       serializedVersion: 2
       minMaxState: 0
@@ -2244,7 +2236,7 @@ ParticleSystem:
     speedModifier:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0
+      scalar: 1
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -4916,7 +4908,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
---- !u!199 &7296265280182139054
+--- !u!199 &7238896321969039326
 ParticleSystemRenderer:
   serializedVersion: 6
   m_ObjectHideFlags: 0
@@ -4934,7 +4926,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 0}
   - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -4955,7 +4947,7 @@ ParticleSystemRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 25
+  m_SortingOrder: 0
   m_RenderMode: 2
   m_SortMode: 0
   m_MinParticleSize: 0
@@ -4964,7 +4956,7 @@ ParticleSystemRenderer:
   m_VelocityScale: 0
   m_LengthScale: 2
   m_SortingFudge: 0
-  m_NormalDirection: 0.65
+  m_NormalDirection: 1
   m_ShadowBias: 0
   m_RenderAlignment: 0
   m_Pivot: {x: 0, y: 0, z: 0}
