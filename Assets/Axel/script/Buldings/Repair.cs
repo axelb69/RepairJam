@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Repair : MonoBehaviour
 {
+    [SerializeField] private bool goodHouse;
     [SerializeField] private Sprite[] _statSprite;
     [SerializeField] private SpriteRenderer _render;
     [SerializeField] private GameObject[] _clone = null;
@@ -44,9 +45,10 @@ public class Repair : MonoBehaviour
     private Transform[] statePos;
     void Start()
     {
+        if (goodHouse) { _stat = 2; TerrainManager.Instance.builds.Add(transform); } else { loot(); }
         ps = GetComponent<ParticleSystem>();
         TheGameManager.Instance.repair = this;
-        loot();
+        
         SetAsset();
     }
 
@@ -63,7 +65,7 @@ public class Repair : MonoBehaviour
 
     private void SetAsset()
     {
-        
+        Debug.Log("a");
         _render.sprite = _statSprite[_stat];
     }
     public void kill(int damage)

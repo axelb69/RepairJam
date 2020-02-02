@@ -89,6 +89,6 @@ public class EnnemisSpawn : MonoBehaviour
         TheGameManager.Instance.controler.OnNewWave();
         TerrainManager.Instance.pointDeVie = (int)WavesManager.Instance.maxPVHouse.Evaluate(wave);
         EnnemisManager.Instance.speed = WavesManager.Instance.mobSpeed.Evaluate(wave);
-        _TimebetweenWave = 5;
+        //_TimebetweenWave = 15;
 ;    }
 }
