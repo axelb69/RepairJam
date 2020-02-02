@@ -48,44 +48,6 @@ public class WavesManager : Singleton<WavesManager>
     [SerializeField] private AnimationCurve _maxPVBarriere = AnimationCurve.Linear(0, 2, 15, 30);
     public AnimationCurve maxPVBarriere { get { return _maxPVBarriere; } set { _maxPVBarriere = value; } }
 
-    // HUTTE 1 - Prix & Loot Bois
-    [SerializeField] private AnimationCurve _h1PriceWood = AnimationCurve.Linear(0, 1, 15, 20);
-    public AnimationCurve h1PriceWood { get { return _h1PriceWood; } set { _h1PriceWood = value; } }
-
-    // HUTTE 1 - Prix & Loot Pierre
-    [SerializeField] private AnimationCurve _h1PriceStone = AnimationCurve.Linear(0, 1, 15, 20);
-    public AnimationCurve h1PriceStone { get { return _h1PriceStone; } set { _h1PriceStone = value; } }
-
-    // HUTTE 1 - Prix & Loot Os
-    [SerializeField] private AnimationCurve _h1PriceBone = AnimationCurve.Linear(0, 1, 15, 20);
-    public AnimationCurve h1PriceBone { get { return _h1PriceBone; } set { _h1PriceBone = value; } }
-
-    // HUTTE 2 - Prix & Loot Bois
-    [SerializeField] private AnimationCurve _h2PriceWood = AnimationCurve.Linear(0, 1, 15, 20);
-    public AnimationCurve h2PriceWood { get { return _h2PriceWood; } set { _h2PriceWood = value; } }
-
-    // HUTTE 2 - Prix & Loot Pierre
-    [SerializeField] private AnimationCurve _h2PriceStone = AnimationCurve.Linear(0, 1, 15, 20);
-    public AnimationCurve h2PriceStone { get { return _h2PriceStone; } set { _h2PriceStone = value; } }
-
-    // HUTTE 2 - Prix & Loot Os
-    [SerializeField] private AnimationCurve _h2PriceBone = AnimationCurve.Linear(0, 1, 15, 20);
-    public AnimationCurve h2PriceBone { get { return _h2PriceBone; } set { _h2PriceBone = value; } }
-
-    // HUTTE 3 - Prix & Loot Bois
-    [SerializeField] private AnimationCurve _h3PriceWood = AnimationCurve.Linear(0, 1, 15, 20);
-    public AnimationCurve h3PriceWood { get { return _h3PriceWood; } set { _h3PriceWood = value; } }
-
-    // HUTTE 3 - Prix & Loot Pierre
-    [SerializeField] private AnimationCurve _h3PriceStone = AnimationCurve.Linear(0, 1, 15, 20);
-    public AnimationCurve h3PriceStone { get { return _h3PriceStone; } set { _h3PriceStone = value; } }
-
-    // HUTTE 3 - Prix & Loot Os
-    [SerializeField] private AnimationCurve _h3PriceBone = AnimationCurve.Linear(0, 1, 15, 20);
-    public AnimationCurve h3PriceBone { get { return _h3PriceBone; } set { _h3PriceBone = value; } }
-
-    // BARRIERE - Prix & Loot Os
-    [SerializeField] private AnimationCurve _bPriceBone = AnimationCurve.Linear(0, 1, 15, 20);
-    public AnimationCurve bPriceBone { get { return _bPriceBone; } set { _bPriceBone = value; } }
+    
 }
 
