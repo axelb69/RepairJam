@@ -18,6 +18,8 @@ public class LootRessources : MonoBehaviour
 
     void OnTriggerEnter(Collider col)
     {
+        AudioManager.Instance.audioSouce.clip = AudioManager.Instance.clips[9];
+        AudioManager.Instance.audioSouce.Play();
         InventoryManager.Instance.slots[0] += col.GetComponent<RessourcesInformations>().ressourcesInformations[0];
         InventoryManager.Instance.slots[1] += col.GetComponent<RessourcesInformations>().ressourcesInformations[1];
         InventoryManager.Instance.slots[2] += col.GetComponent<RessourcesInformations>().ressourcesInformations[2];

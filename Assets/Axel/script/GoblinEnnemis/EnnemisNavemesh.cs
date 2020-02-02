@@ -15,7 +15,7 @@ public class EnnemisNavemesh : MonoBehaviour
 
     private float _wait;
 
-    public enum State{FindATarget, GoToTarget, Destruct}
+    public enum State{FindATarget, GoToTarget, Destruct, Dead}
     public State state;
 
     Rigidbody rb;
@@ -111,7 +111,12 @@ public class EnnemisNavemesh : MonoBehaviour
             case State.Destruct:
             _angent.isStopped = true;
             animator.SetBool("Hit", true);
-                StartCoroutine(Timer2());
+            ChangeState(State.Dead);
+            StartCoroutine(Timer2());
+            break;
+
+            case State.Dead:
+            animator.Play("Die");
             break;
         }
         state = newState;

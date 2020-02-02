@@ -9,7 +9,7 @@ public class Controler : MonoBehaviour
     [SerializeField] private Animator _anim = null;
 
     private Repair _focus = null;
-    enum State{Normal, Build}
+    enum State{Normal, Build, Pause, Dead}
     State state;
     private float _newtime;
 
@@ -107,6 +107,8 @@ public class Controler : MonoBehaviour
     {
         _anim.SetBool("HIT", true);
         yield return new WaitForSeconds(_newtime);
+        AudioManager.Instance.audioSouce.clip = AudioManager.Instance.clips[6];
+        AudioManager.Instance.audioSouce.Play();
         ChangeState(State.Normal);
     }
 
