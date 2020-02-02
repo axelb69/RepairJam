@@ -95,6 +95,7 @@ GameObject:
   - component: {fileID: 6679951992046191217}
   - component: {fileID: 2041622111}
   - component: {fileID: 355856976}
+  - component: {fileID: 4963173578308222916}
   m_Layer: 8
   m_Name: Build1
   m_TagString: Untagged
@@ -193,6 +194,11 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 64a34315a168a8449baf0ed9712daf82, type: 3}
   - {fileID: 21300000, guid: 9a1887adbfd9b654dbfe6214fc01d36e, type: 3}
   _render: {fileID: 3343290803257741458}
+  _clone:
+  - {fileID: 9136090249337946982, guid: 71ad5d3e094ed7e4f9409ec4bf14d997, type: 3}
+  - {fileID: 9136090249337946982, guid: af5c8b0512afe464a8556eef308dac6a, type: 3}
+  - {fileID: 9136090249337946982, guid: 39b2a067087a2e340ace8f8e5b26457f, type: 3}
+  _price: 030000000300000003000000
 --- !u!54 &2041622111
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -225,3 +231,16 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0, z: 0}
   m_TimeToStationary: 0.5
+--- !u!65 &4963173578308222916
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7421649731713804176}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.97, y: 1.21, z: 1.13}
+  m_Center: {x: 0.013273138, y: 0, z: 0.008813518}

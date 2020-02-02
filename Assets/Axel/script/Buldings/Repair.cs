@@ -6,7 +6,14 @@ public class Repair : MonoBehaviour
 {
     [SerializeField] private Sprite[] _statSprite;
     [SerializeField] private SpriteRenderer _render;
-    [SerializeField] private GameObject _clone = null;
+    [SerializeField] private GameObject[] _clone = null;
+    [SerializeField] private int[] _price;
+
+    [SerializeField] private int _osLoot = 0;
+    [SerializeField] private int _stoneLoot = 0;
+    [SerializeField] private int _woodLoot = 0;
+
+    public int[] price { get { return _price; } }
     private int _stat = 0;
     public int stat
     {
@@ -37,6 +44,7 @@ public class Repair : MonoBehaviour
     void Start()
     {
         TheGameManager.Instance.repair = this;
+        loot();
         SetAsset();
     }
 
@@ -50,28 +58,44 @@ public class Repair : MonoBehaviour
 
         SetAsset();
     }
+
     private void SetAsset()
     {
         _render.sprite = _statSprite[_stat];
     }
     public void kill(int damage)
     {
-        _caseTake = new List<bool> { false, false, false };
-        _lifePoints -= damage;
-        if (_lifePoints < _maxPv)
-        {
+        if (  _stat > 0)
+        { 
+            _caseTake = new List<bool> { false, false, false };
+            _lifePoints -= damage;
+            if (_lifePoints < _maxPv)
+            {
             _stat = 1;
             SetAsset();
-        }
-        if (_lifePoints <= 0)
-        {
-            _stat = 0;
+            }
+            if (_lifePoints <= 0)
+            {
+
+                _stat = 0;
+                foreach (EnnemisNavemesh e in EnnemisManager.Instance.ennemis)
+                {
+                    e.checkFocusExist();
+                }   
             SetAsset();
             TerrainManager.Instance.builds.Remove(transform);
+            loot();
+            }
         }
     }
     private void loot()
     {
-        Instantiate(_clone, transform.position + Vector3.down * TerrainManager.Instance.size, Quaternion.identity, transform);
+        GameObject loot;
+        loot = Instantiate(_clone[0], transform.position + Vector3.right * TerrainManager.Instance.size, Quaternion.identity, transform);
+        loot.GetComponent<bone>().cunt = _osLoot;
+        loot = Instantiate(_clone[1], transform.position + Vector3.left * TerrainManager.Instance.size, Quaternion.identity, transform);
+        loot.GetComponent<stone>().cunt = _stoneLoot;
+        loot = Instantiate(_clone[2], transform.position + Vector3.back * TerrainManager.Instance.size, Quaternion.identity, transform);
+        loot.GetComponent<Wood>().cunt = _woodLoot;
     }
 }
