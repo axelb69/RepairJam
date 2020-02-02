@@ -4,11 +4,10 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class MainMenu : MonoBehaviour
+public class GameOverMenu : MonoBehaviour
 {
-
     [SerializeField]
-    private GameObject OptionPanel;
+    private Text scoreText;
 
     // Start is called before the first frame update
     void Start()
@@ -22,14 +21,9 @@ public class MainMenu : MonoBehaviour
         
     }
 
-    public void QuitGame()
+    public void Restart()
     {
-        Application.Quit();
-    }
-
-    public void NewGame()
-    {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     public void ReturnToMenu()
@@ -37,15 +31,12 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene(0);
     }
 
-    public void Options()
+    void OnEnable()
     {
-        OptionPanel.SetActive(true);
-        gameObject.SetActive(false);
+        if(transform.GetChild(5).GetChild(1).GetComponent<Text>())
+        {
+            transform.GetChild(5).GetChild(1).GetComponent<Text>().text = scoreText.text;
+        }
     }
 
-    public void GoToMainMenu()
-    {
-        OptionPanel.SetActive(false);
-        gameObject.SetActive(true);
-    }
 }
