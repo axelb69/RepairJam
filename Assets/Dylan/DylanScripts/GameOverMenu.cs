@@ -52,7 +52,7 @@ public class GameOverMenu : MonoBehaviour
 
     public void GenerateTip()
     {
-        Debug.Log("ui");
+        scoreTextHolder.transform.parent.gameObject.SetActive(true);
         int quote = Random.Range(0, tipsList.Length -1 );
         scoreTextHolder.text = tipsList[quote];
     }

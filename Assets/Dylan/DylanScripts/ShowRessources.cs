@@ -24,8 +24,8 @@ public class ShowRessources : MonoBehaviour
     void Update()
     {
         Debug.Log(InventoryManager.Instance.slots[0]);
-        woodText.text = InventoryManager.Instance.slots[0].ToString();
+        woodText.text = InventoryManager.Instance.slots[2].ToString();
         stoneText.text = InventoryManager.Instance.slots[1].ToString();
-        boneText.text = InventoryManager.Instance.slots[2].ToString();
+        boneText.text = InventoryManager.Instance.slots[0].ToString();
     }
 }
