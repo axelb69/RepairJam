@@ -6,8 +6,10 @@ using UnityEngine.AI;
 public class EnnemisNavemesh : MonoBehaviour
 {
     private NavMeshAgent _angent;
+    private Transform _destTrans = null;
     private Vector3 _destination = Vector3.zero;
-
+    private float _timeTodestroy = 1;
+    private int _damage = 1;
     [SerializeField]
     private SpriteRenderer spriteRenderer;
 
@@ -35,16 +37,19 @@ public class EnnemisNavemesh : MonoBehaviour
             {
                 build.caseTake[0] = true;
                 _destination = t.position + Vector3.left * _size;
+                _destTrans = t;
             }
             else if (!build.caseTake[1])
             {
                 build.caseTake[1] = true;
                 _destination = t.position + Vector3.back * _size;
+                _destTrans = t;
             }
             else if (!build.caseTake[2])
             {
                 build.caseTake[2] = true;
                 _destination = t.position + Vector3.right * _size;
+                _destTrans = t;
             }
             if (_destination != Vector3.zero)
             {
@@ -102,6 +107,7 @@ public class EnnemisNavemesh : MonoBehaviour
             case State.Destruct:
             _angent.isStopped = true;
             animator.SetBool("Hit", true);
+                StartCoroutine(Timer2());
             break;
         }
         state = newState;
@@ -111,5 +117,16 @@ public class EnnemisNavemesh : MonoBehaviour
     {
         yield return new WaitForSeconds(0.01f);
         ChangeState(State.GoToTarget);
+    }
+    IEnumerator Timer2()
+    {
+        yield return new WaitForSeconds(_timeTodestroy);
+        if (_destTrans != null)
+        {
+            _destTrans.GetComponent<Repair>().kill(_damage);
+        }
+        
+        Destroy(gameObject);
+
     }
 }
