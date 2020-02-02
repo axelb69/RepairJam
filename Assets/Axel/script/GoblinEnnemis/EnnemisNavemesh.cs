@@ -12,7 +12,7 @@ public class EnnemisNavemesh : MonoBehaviour
     private int _damage = 1;
     [SerializeField]
     private SpriteRenderer spriteRenderer;
-
+    private bool _stading = false;
     private float _wait;
 
     public enum State{FindATarget, GoToTarget, Destruct, Dead}
@@ -51,7 +51,11 @@ public class EnnemisNavemesh : MonoBehaviour
 
     void Update()
     {
-        if(_angent.velocity.z >= 0)
+        if (_stading)
+        {
+            findfocus();
+        }
+        if (_angent.velocity.z >= 0)
         {
             animator.SetBool("WalkUp", true);
             animator.SetBool("WalkDown", false);
@@ -119,6 +123,7 @@ public class EnnemisNavemesh : MonoBehaviour
     }
     private void findfocus()
     {
+        _stading = false;
         _destination = Vector3.zero;
         _angent = GetComponent<NavMeshAgent>();
         float _size = TerrainManager.Instance.size;
@@ -147,6 +152,7 @@ public class EnnemisNavemesh : MonoBehaviour
             if (_destination != Vector3.zero)
             {
                 _angent.isStopped = false;
+                _stading = false;
                 break;
             }
         }
