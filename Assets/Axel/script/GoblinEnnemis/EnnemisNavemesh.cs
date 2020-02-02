@@ -94,12 +94,12 @@ public class EnnemisNavemesh : MonoBehaviour
             case State.Destruct:
             _angent.isStopped = true;
             animator.SetBool("Hit", true);
-            ChangeState(State.Dead);
             StartCoroutine(Timer2());
             break;
 
             case State.Dead:
-            animator.Play("Die");
+            animator.SetTrigger("Die");
+            StartCoroutine(Timer3());
             break;
         }
         state = newState;
@@ -118,6 +118,11 @@ public class EnnemisNavemesh : MonoBehaviour
             _destTrans.GetComponent<Repair>().kill(_damage);
         }
         EnnemisManager.Instance.ennemis.Remove(this);
+        ChangeState(State.Dead);
+    }
+    IEnumerator Timer3()
+    {
+        yield return new WaitForSeconds(2);
         Destroy(gameObject);
 
     }

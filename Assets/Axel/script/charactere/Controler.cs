@@ -25,6 +25,7 @@ public class Controler : MonoBehaviour
 
     void Update()
     {
+        
         switch(state)
         {
             case State.Normal:
@@ -71,18 +72,19 @@ public class Controler : MonoBehaviour
     {
         if(other.gameObject.layer == 8)
         {
+            Destroy(rien);
             rien = Instantiate(interactionLogo);
             rien.transform.position = new Vector3(other.transform.position.x, other.transform.position.y + 5, other.transform.position.z - 5);
             showInteraction = true;
 
             if ((Input.GetKeyDown(KeyCode.E) || Input.GetButtonDown("Fire1")))
             {
-               
+                rien.SetActive(false);
                 if (other.gameObject.GetComponent<Repair>() != null)
                 {
                     if (InventoryManager.Instance.slots[0] >= other.gameObject.GetComponent<Repair>().price[0] &&
                     InventoryManager.Instance.slots[1] >= other.gameObject.GetComponent<Repair>().price[1] &&
-                    InventoryManager.Instance.slots[2] >= other.gameObject.GetComponent<Repair>().price[2]&& ! contruct)
+                    InventoryManager.Instance.slots[2] >= other.gameObject.GetComponent<Repair>().price[2] && !contruct)
                     {
                         contruct = true;
                         InventoryManager.Instance.slots[0] -= other.gameObject.GetComponent<Repair>().price[0];
@@ -97,8 +99,18 @@ public class Controler : MonoBehaviour
                     }
                 }
             }
+            else
+            {
+                StartCoroutine(waitE());
+                StartCoroutine(waitE());
+            }
         }
         //else _anim.SetBool("HIT", false);
+    }
+    IEnumerator waitE()
+    {
+        yield return new WaitForSeconds(1);
+        rien.SetActive(false);
     }
     
     void OnTriggerExit(Collider other)
@@ -121,6 +133,7 @@ public class Controler : MonoBehaviour
                     {
                         _focus.stat = 2;
                         _focus.Upgrade();
+
                         _focus = null;
                     }
                    
