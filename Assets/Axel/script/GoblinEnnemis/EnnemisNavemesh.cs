@@ -99,6 +99,7 @@ public class EnnemisNavemesh : MonoBehaviour
 
             case State.Dead:
             animator.SetTrigger("Die");
+            _angent.isStopped = true;
             StartCoroutine(Timer3());
             break;
         }
@@ -122,7 +123,7 @@ public class EnnemisNavemesh : MonoBehaviour
     }
     IEnumerator Timer3()
     {
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(0.5f);
         Destroy(gameObject);
 
     }
