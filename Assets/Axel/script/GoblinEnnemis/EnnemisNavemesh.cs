@@ -26,40 +26,12 @@ public class EnnemisNavemesh : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        EnnemisManager.Instance.ennemis.Add(this);
         TheGameManager.Instance.ennemyNM = this;
         _damage = WavesManager.Instance.mobsPVDmg;
         _timeTodestroy = WavesManager.Instance.mobsDeathTime;
         _wait = Time.time;
-        _angent = GetComponent<NavMeshAgent>();
-        float _size = TerrainManager.Instance.size;
-        rb = GetComponent<Rigidbody>();
-        foreach (Transform t in TerrainManager.Instance.builds)
-        {
-            Repair build = t.GetComponent<Repair>();
-            if (!build.caseTake[0])
-            {
-                build.caseTake[0] = true;
-                _destination = t.position + Vector3.left * _size;
-                _destTrans = t;
-            }
-            else if (!build.caseTake[1])
-            {
-                build.caseTake[1] = true;
-                _destination = t.position + Vector3.back * _size;
-                _destTrans = t;
-            }
-            else if (!build.caseTake[2])
-            {
-                build.caseTake[2] = true;
-                _destination = t.position + Vector3.right * _size;
-                _destTrans = t;
-            }
-            if (_destination != Vector3.zero)
-            {
-                break;
-            }
-        }
-        _angent.SetDestination(_destination);
+        findfocus();
         StartCoroutine("Timer");
     }
 
@@ -99,7 +71,15 @@ public class EnnemisNavemesh : MonoBehaviour
             spriteRenderer.flipX = false;
         }
     }
-
+    public void checkFocusExist()
+    {
+       
+        if (TerrainManager.Instance.builds.IndexOf(_destTrans) == -1)
+        {
+            
+            findfocus();
+        }
+    }
     void ChangeState(State newState)
     {
         switch(newState)
@@ -128,10 +108,43 @@ public class EnnemisNavemesh : MonoBehaviour
         {
             _destTrans.GetComponent<Repair>().kill(_damage);
         }
-        
+        EnnemisManager.Instance.ennemis.Remove(this);
         Destroy(gameObject);
 
     }
-
+    private void findfocus()
+    {
+        _destination = Vector3.zero;
+        _angent = GetComponent<NavMeshAgent>();
+        float _size = TerrainManager.Instance.size;
+        rb = GetComponent<Rigidbody>();
+        foreach (Transform t in TerrainManager.Instance.builds)
+        {
+            Repair build = t.GetComponent<Repair>();
+            if (!build.caseTake[0])
+            {
+                build.caseTake[0] = true;
+                _destination = t.position + Vector3.left * _size;
+                _destTrans = t;
+            }
+            else if (!build.caseTake[1])
+            {
+                build.caseTake[1] = true;
+                _destination = t.position + Vector3.back * _size;
+                _destTrans = t;
+            }
+            else if (!build.caseTake[2])
+            {
+                build.caseTake[2] = true;
+                _destination = t.position + Vector3.right * _size;
+                _destTrans = t;
+            }
+            if (_destination != Vector3.zero)
+            {
+                break;
+            }
+        }
+        _angent.SetDestination(_destination);
+    }
     
 }

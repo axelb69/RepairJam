@@ -53,25 +53,34 @@ public class Repair : MonoBehaviour
 
         SetAsset();
     }
+
     private void SetAsset()
     {
         _render.sprite = _statSprite[_stat];
     }
     public void kill(int damage)
     {
-        _caseTake = new List<bool> { false, false, false };
-        _lifePoints -= damage;
-        if (_lifePoints < _maxPv)
-        {
+        if (  _stat > 0)
+        { 
+            _caseTake = new List<bool> { false, false, false };
+            _lifePoints -= damage;
+            if (_lifePoints < _maxPv)
+            {
             _stat = 1;
             SetAsset();
-        }
-        if (_lifePoints <= 0)
-        {
-            _stat = 0;
+            }
+            if (_lifePoints <= 0)
+            {
+
+                _stat = 0;
+                foreach (EnnemisNavemesh e in EnnemisManager.Instance.ennemis)
+                {
+                    e.checkFocusExist();
+                }   
             SetAsset();
             TerrainManager.Instance.builds.Remove(transform);
             loot();
+            }
         }
     }
     private void loot()
