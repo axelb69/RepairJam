@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EnnemisSpawn : MonoBehaviour
 {
@@ -24,7 +25,11 @@ public class EnnemisSpawn : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-
+        if (TerrainManager.Instance.builds.Count == 0)
+        {
+            Time.timeScale = 0;
+            SceneManager.LoadScene(3);
+        }
         if (_preparNewWave)
         {
             _preparNewWave = false;
@@ -59,9 +64,10 @@ public class EnnemisSpawn : MonoBehaviour
     IEnumerator Timer()
     {
         yield return new WaitForSeconds(_TimebetweenWave);
-        if (WavesManager.Instance.wave == 15)
+        if (WavesManager.Instance.wave == 2)
         {
             Time.timeScale = 0;
+            SceneManager.LoadScene(4);
         }
         else
         {
