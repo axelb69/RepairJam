@@ -11,6 +11,7 @@ public class Controler : MonoBehaviour
     private Repair _focus = null;
     enum State{Normal, Build}
     State state;
+    private bool contruct = false;
     private float _newtime;
 
     private void Start()
@@ -64,16 +65,26 @@ public class Controler : MonoBehaviour
     }
     private void OnTriggerStay(Collider other)
     {
-        if((Input.GetKeyDown(KeyCode.E)|| Input.GetButtonDown("Fire1")&& other.gameObject.layer == 8))
+        if ((Input.GetKeyDown(KeyCode.E) || Input.GetButtonDown("Fire1")) && other.gameObject.layer == 8 )
         {
-            ChangeState(State.Build);
-            //_anim.SetBool("HIT", true);
-            //InventoryManager.Instance.slots[1] += 2;
-            //Debug.Log(_anim.GetBool("HIT"));
-            //Debug.Log(other.gameObject.GetComponent<Repair>());
-            _focus = other.gameObject.GetComponent<Repair>();
-            
-            
+            if (other.gameObject.GetComponent<Repair>() != null)
+            {
+                if (InventoryManager.Instance.slots[0] >= other.gameObject.GetComponent<Repair>().price[0] &&
+                InventoryManager.Instance.slots[1] >= other.gameObject.GetComponent<Repair>().price[1] &&
+                InventoryManager.Instance.slots[2] >= other.gameObject.GetComponent<Repair>().price[2]&& ! contruct)
+                {
+                    contruct = true;
+                    InventoryManager.Instance.slots[0] -= other.gameObject.GetComponent<Repair>().price[0];
+                    InventoryManager.Instance.slots[1] -= other.gameObject.GetComponent<Repair>().price[1];
+                    InventoryManager.Instance.slots[2] -= other.gameObject.GetComponent<Repair>().price[2];
+                    ChangeState(State.Build);
+                    //_anim.SetBool("HIT", true);
+                    //InventoryManager.Instance.slots[1] += 2;
+                    //Debug.Log(_anim.GetBool("HIT"));
+                    //Debug.Log(other.gameObject.GetComponent<Repair>());
+                    _focus = other.gameObject.GetComponent<Repair>();
+                }
+            }
         }
         //else _anim.SetBool("HIT", false);
     }
@@ -83,7 +94,8 @@ public class Controler : MonoBehaviour
         switch(newState)
         {
             case State.Normal:
-            _anim.SetBool("HIT", false);
+                contruct = false;
+                _anim.SetBool("HIT", false);
                 if(_focus != null)
                 {
                     if (_focus.stat==0)

@@ -12,14 +12,5 @@ public class RessourcesInformations : MonoBehaviour
     private int _ressourcesInformations = 0;
     public int ressourcesInformations{get{return _ressourcesInformations;} set{_ressourcesInformations = value;}}
     // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

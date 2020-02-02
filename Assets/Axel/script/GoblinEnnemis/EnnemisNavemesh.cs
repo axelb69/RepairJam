@@ -27,7 +27,6 @@ public class EnnemisNavemesh : MonoBehaviour
     void Start()
     {
         TheGameManager.Instance.ennemyNM = this;
-        Debug.Log(TheGameManager.Instance.ennemyNM);
         _damage = WavesManager.Instance.mobsPVDmg;
         _timeTodestroy = WavesManager.Instance.mobsDeathTime;
         _wait = Time.time;

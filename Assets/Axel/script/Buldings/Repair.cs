@@ -7,6 +7,8 @@ public class Repair : MonoBehaviour
     [SerializeField] private Sprite[] _statSprite;
     [SerializeField] private SpriteRenderer _render;
     [SerializeField] private GameObject[] _clone = null;
+    [SerializeField] private int[] _price;
+    public int[] price { get { return _price; } }
     private int _stat = 0;
     public int stat
     {

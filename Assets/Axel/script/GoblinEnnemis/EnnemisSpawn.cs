@@ -59,7 +59,6 @@ public class EnnemisSpawn : MonoBehaviour
     IEnumerator Timer()
     {
         yield return new WaitForSeconds(_TimebetweenWave);
-        Debug.Log("a");
         WavesManager.Instance.wave++;
         OnNewWave();
         
