@@ -69,7 +69,7 @@ public class Controler : MonoBehaviour
     }
     private void OnTriggerStay(Collider other)
     {
-        if(other.gameObject.layer == 8 && !showInteraction)
+        if(other.gameObject.layer == 8)
         {
             rien = Instantiate(interactionLogo);
             rien.transform.position = new Vector3(other.transform.position.x, other.transform.position.y + 5, other.transform.position.z - 5);
@@ -77,6 +77,7 @@ public class Controler : MonoBehaviour
 
             if ((Input.GetKeyDown(KeyCode.E) || Input.GetButtonDown("Fire1")))
             {
+               
                 if (other.gameObject.GetComponent<Repair>() != null)
                 {
                     if (InventoryManager.Instance.slots[0] >= other.gameObject.GetComponent<Repair>().price[0] &&
