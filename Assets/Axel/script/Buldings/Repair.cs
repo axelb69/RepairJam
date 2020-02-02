@@ -42,7 +42,7 @@ public class Repair : MonoBehaviour
     {
         TerrainManager.Instance.builds.Add(transform);
         EnnemisManager.Instance.destination = transform;
-        _stat = 2;
+        SetAsset();
     }
     private void SetAsset()
     {

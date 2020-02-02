@@ -64,7 +64,8 @@ public class Controler : MonoBehaviour
             //_anim.SetBool("HIT", true);
             //InventoryManager.Instance.slots[1] += 2;
             //Debug.Log(_anim.GetBool("HIT"));
-            _focus = other.gameObject.transform.GetComponent<Repair>();
+            //Debug.Log(other.gameObject.GetComponent<Repair>());
+            _focus = other.gameObject.GetComponent<Repair>();
             
             
         }
@@ -77,7 +78,12 @@ public class Controler : MonoBehaviour
         {
             case State.Normal:
             _anim.SetBool("HIT", false);
-                _focus.stat = 2;
+                if(_focus != null)
+                {
+                    _focus.stat = 2;
+                    _focus.Upgrade();
+                    _focus = null;
+                }
             break;
 
             case State.Build:

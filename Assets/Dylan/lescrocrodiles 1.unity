@@ -5475,18 +5475,7 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 206157035967109737, guid: d28e9b92dcb6c1444bf2e4023bf89fd0,
-        type: 3}
-      propertyPath: m_Mass
-      value: 0.0000001
-      objectReference: {fileID: 0}
-    - target: {fileID: 206157035967109737, guid: d28e9b92dcb6c1444bf2e4023bf89fd0,
-        type: 3}
-      propertyPath: m_UseGravity
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 206157035967109735, guid: d28e9b92dcb6c1444bf2e4023bf89fd0, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d28e9b92dcb6c1444bf2e4023bf89fd0, type: 3}
 --- !u!4 &1005474065 stripped
 Transform:
@@ -8287,25 +8276,6 @@ Mesh:
     offset: 0
     size: 0
     path: 
---- !u!1 &1713460445 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 206157035967109739, guid: d28e9b92dcb6c1444bf2e4023bf89fd0,
-    type: 3}
-  m_PrefabInstance: {fileID: 995053546}
-  m_PrefabAsset: {fileID: 0}
---- !u!65 &1713460449
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1713460445}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.8, y: 1, z: 1.8}
-  m_Center: {x: 0, y: -1, z: 0}
 --- !u!43 &1718239834
 Mesh:
   m_ObjectHideFlags: 0
