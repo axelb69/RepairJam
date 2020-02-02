@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Dylan/lescrocrodiles 1.unity
+- path: Assets/Julie/SceneJulie/SceneTestsJulie.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
