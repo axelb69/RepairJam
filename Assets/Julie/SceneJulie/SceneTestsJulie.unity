@@ -558,7 +558,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: d184f94889765394e86130a7f2bda906, type: 3}
+  m_audioClip: {fileID: 8300000, guid: d416c45dd33ed8d46a1369c103de7cdc, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -8733,6 +8733,37 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 65, y: 0, z: 0}
+--- !u!1 &1288741810 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 80742160981611558, guid: 0d3b5119a62411e4ea6847eb8bc1cd46,
+    type: 3}
+  m_PrefabInstance: {fileID: 282968635}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1288741812 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1297230622145772946, guid: 0d3b5119a62411e4ea6847eb8bc1cd46,
+    type: 3}
+  m_PrefabInstance: {fileID: 282968635}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1288741810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1288741814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1288741810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2c937c4b3f1aa47a4d9c804cd64d28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  txt: {fileID: 1288741812}
 --- !u!1 &1308914732
 GameObject:
   m_ObjectHideFlags: 0

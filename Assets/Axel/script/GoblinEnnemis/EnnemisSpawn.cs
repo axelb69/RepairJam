@@ -64,7 +64,7 @@ public class EnnemisSpawn : MonoBehaviour
     IEnumerator Timer()
     {
         yield return new WaitForSeconds(_TimebetweenWave);
-        if (WavesManager.Instance.wave == 2)
+        if (WavesManager.Instance.wave == 16)
         {
             Time.timeScale = 0;
             SceneManager.LoadScene(4);
@@ -72,6 +72,7 @@ public class EnnemisSpawn : MonoBehaviour
         else
         {
             WavesManager.Instance.wave++;
+            TheGameManager.Instance.scor += TerrainManager.Instance.builds.Count;
         }
        
         OnNewWave();

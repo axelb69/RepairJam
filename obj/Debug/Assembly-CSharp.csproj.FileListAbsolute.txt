@@ -271,3 +271,7 @@ D:\Aries\cours\repairetonpere\RepairJam\obj\Debug\Assembly-CSharp.csproj.CoreCom
 D:\Aries\cours\repairetonpere\RepairJam\obj\Debug\Assembly-CSharp.csproj.CopyComplete
 D:\Aries\cours\repairetonpere\RepairJam\obj\Debug\Assembly-CSharp.dll
 D:\Aries\cours\repairetonpere\RepairJam\obj\Debug\Assembly-CSharp.pdb
+D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\obj\Debug\Assembly-CSharp.dll
+D:\Julie\1 - SCHOOL\ARIES_GD2\3 - UNITY\RepairJam\RepairJam\obj\Debug\Assembly-CSharp.pdb
