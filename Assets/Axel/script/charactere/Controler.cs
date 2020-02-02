@@ -71,6 +71,7 @@ public class Controler : MonoBehaviour
     {
         if(other.gameObject.layer == 8 && !showInteraction)
         {
+            Destroy(rien);
             rien = Instantiate(interactionLogo);
             rien.transform.position = new Vector3(other.transform.position.x, other.transform.position.y + 5, other.transform.position.z - 5);
             showInteraction = true;
