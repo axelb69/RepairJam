@@ -66,7 +66,7 @@ public class Controler : MonoBehaviour
     private void OnTriggerStay(Collider other)
     {
         if ((Input.GetKeyDown(KeyCode.E) || Input.GetButtonDown("Fire1")) && other.gameObject.layer == 8 )
-        {
+        {          
             if (other.gameObject.GetComponent<Repair>() != null)
             {
                 if (InventoryManager.Instance.slots[0] >= other.gameObject.GetComponent<Repair>().price[0] &&

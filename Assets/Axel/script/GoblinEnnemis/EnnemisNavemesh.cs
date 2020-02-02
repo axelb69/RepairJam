@@ -146,6 +146,7 @@ public class EnnemisNavemesh : MonoBehaviour
             }
             if (_destination != Vector3.zero)
             {
+                _angent.isStopped = false;
                 break;
             }
         }

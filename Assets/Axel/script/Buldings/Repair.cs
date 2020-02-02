@@ -12,6 +12,7 @@ public class Repair : MonoBehaviour
     [SerializeField] private int _osLoot = 0;
     [SerializeField] private int _stoneLoot = 0;
     [SerializeField] private int _woodLoot = 0;
+    private ParticleSystem ps = null;
 
     public int[] price { get { return _price; } }
     private int _stat = 0;
@@ -43,6 +44,7 @@ public class Repair : MonoBehaviour
     private Transform[] statePos;
     void Start()
     {
+        ps = GetComponent<ParticleSystem>();
         TheGameManager.Instance.repair = this;
         loot();
         SetAsset();
@@ -55,12 +57,13 @@ public class Repair : MonoBehaviour
         _lifePoints = 0;
         _lifePoints = _maxPv;
         TerrainManager.Instance.builds.Add(transform);
-
+        ps.Play();
         SetAsset();
     }
 
     private void SetAsset()
     {
+        
         _render.sprite = _statSprite[_stat];
     }
     public void kill(int damage)
@@ -72,19 +75,21 @@ public class Repair : MonoBehaviour
             if (_lifePoints < _maxPv)
             {
             _stat = 1;
-            SetAsset();
+                ps.Play();
+                SetAsset();
             }
             if (_lifePoints <= 0)
             {
-
                 _stat = 0;
+                ps.Play();
+                SetAsset();
+                TerrainManager.Instance.builds.Remove(transform);
+                loot();
                 foreach (EnnemisNavemesh e in EnnemisManager.Instance.ennemis)
                 {
                     e.checkFocusExist();
                 }   
-            SetAsset();
-            TerrainManager.Instance.builds.Remove(transform);
-            loot();
+           
             }
         }
     }

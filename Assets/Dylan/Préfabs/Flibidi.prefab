@@ -114,7 +114,6 @@ GameObject:
   - component: {fileID: 206157035967109737}
   - component: {fileID: 206157035967109736}
   - component: {fileID: 1713460449}
-  - component: {fileID: 1800650825126075249}
   m_Layer: 10
   m_Name: Flibidi
   m_TagString: Player
@@ -195,18 +194,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.8, y: 1, z: 1.8}
   m_Center: {x: 0, y: -1, z: 0}
---- !u!114 &1800650825126075249
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 206157035967109739}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 96bbbb249dad5c54384b38cba95a71ca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &206157036325696634
 GameObject:
   m_ObjectHideFlags: 0
@@ -219,6 +206,7 @@ GameObject:
   - component: {fileID: 206157036325696631}
   - component: {fileID: 206157036325696630}
   - component: {fileID: 206157036325696633}
+  - component: {fileID: 1011124858}
   m_Layer: 12
   m_Name: Sphere
   m_TagString: Untagged
@@ -299,3 +287,15 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 2
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1011124858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 206157036325696634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96bbbb249dad5c54384b38cba95a71ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

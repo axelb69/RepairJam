@@ -23,9 +23,9 @@ public class ShowRessources : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-        woodText.text = InventoryManager.Instance.slots[0].ToString();
+        Debug.Log(InventoryManager.Instance.slots[0]);
+        woodText.text = InventoryManager.Instance.slots[2].ToString();
         stoneText.text = InventoryManager.Instance.slots[1].ToString();
-        boneText.text = InventoryManager.Instance.slots[2].ToString();
+        boneText.text = InventoryManager.Instance.slots[0].ToString();
     }
 }
