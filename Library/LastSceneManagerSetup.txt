@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Dylan/axelbubul 1.unity
+- path: Assets/Axel/SceneTests 1/axelbubul.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

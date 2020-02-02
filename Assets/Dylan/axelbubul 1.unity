@@ -6045,24 +6045,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 277277212}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1011124853 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 206157036325696634, guid: d28e9b92dcb6c1444bf2e4023bf89fd0,
-    type: 3}
-  m_PrefabInstance: {fileID: 2077141878}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1011124858
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1011124853}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 96bbbb249dad5c54384b38cba95a71ca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!43 &1019297579
 Mesh:
   m_ObjectHideFlags: 0
@@ -12855,18 +12837,7 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 206157035967109737, guid: d28e9b92dcb6c1444bf2e4023bf89fd0,
-        type: 3}
-      propertyPath: m_CollisionDetection
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 206157035967109737, guid: d28e9b92dcb6c1444bf2e4023bf89fd0,
-        type: 3}
-      propertyPath: m_IsKinematic
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 1800650825126075249, guid: d28e9b92dcb6c1444bf2e4023bf89fd0, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d28e9b92dcb6c1444bf2e4023bf89fd0, type: 3}
 --- !u!1001 &2084402147
 PrefabInstance:
