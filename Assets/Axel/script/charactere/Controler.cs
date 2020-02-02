@@ -64,7 +64,7 @@ public class Controler : MonoBehaviour
     }
     private void OnTriggerStay(Collider other)
     {
-        if(Input.GetKeyDown(KeyCode.E) && other.gameObject.layer == 8)
+        if((Input.GetKeyDown(KeyCode.E)|| Input.GetButtonDown("Fire1")&& other.gameObject.layer == 8))
         {
             ChangeState(State.Build);
             //_anim.SetBool("HIT", true);
