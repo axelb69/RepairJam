@@ -80,14 +80,18 @@ public class Controler : MonoBehaviour
             _anim.SetBool("HIT", false);
                 if(_focus != null)
                 {
-                    _focus.stat = 2;
-                    _focus.Upgrade();
-                    _focus = null;
+                    if (_focus.stat==0)
+                    {
+                        _focus.stat = 2;
+                        _focus.Upgrade();
+                        _focus = null;
+                    }
+                   
                 }
             break;
 
             case State.Build:
-            StartCoroutine("RepairTimer", 8);
+            StartCoroutine("RepairTimer", 1);
             break;
         }
         state = newState;

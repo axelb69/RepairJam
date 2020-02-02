@@ -18,7 +18,8 @@ public class Repair : MonoBehaviour
             _stat = value;
         }
     }
-    private int _lifePoints = 0;
+    private int _maxPv = 2;
+    private int _lifePoints = 2;
     private List<bool> _caseTake = new List<bool> { false,  false,  false};
     public List<bool> caseTake
     {
@@ -40,6 +41,8 @@ public class Repair : MonoBehaviour
     // Update is called once per frame
     public void Upgrade()
     {
+        _lifePoints = 0;
+        _lifePoints = _maxPv;
         TerrainManager.Instance.builds.Add(transform);
         EnnemisManager.Instance.destination = transform;
         SetAsset();
@@ -48,5 +51,20 @@ public class Repair : MonoBehaviour
     {
         _render.sprite = _statSprite[_stat];                 
     }
-
+    public void kill(int damage)
+    {
+        _caseTake = new List<bool> { false, false, false };
+        _lifePoints -= damage;
+        if (_lifePoints <  _maxPv)
+        {
+            _stat = 1;
+            SetAsset();
+        }
+        if (_lifePoints <= 0)
+        {
+            _stat = 0;
+            SetAsset();
+            TerrainManager.Instance.builds.Remove(transform);
+        }
+    }
 }
