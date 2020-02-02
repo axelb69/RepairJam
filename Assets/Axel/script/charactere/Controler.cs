@@ -14,6 +14,7 @@ public class Controler : MonoBehaviour
     private bool contruct = false;
     private float _newtime;
     bool showInteraction;
+    GameObject rien;
 
     [SerializeField] private GameObject interactionLogo;
 
@@ -70,12 +71,12 @@ public class Controler : MonoBehaviour
     {
         if(other.gameObject.layer == 8 && !showInteraction)
         {
+            rien = Instantiate(interactionLogo);
+            rien.transform.position = new Vector3(other.transform.position.x, other.transform.position.y + 5, other.transform.position.z - 5);
+            showInteraction = true;
 
             if ((Input.GetKeyDown(KeyCode.E) || Input.GetButtonDown("Fire1")))
-            {   
-                GameObject e = Instantiate(interactionLogo);
-                e.transform.position = new Vector3(other.transform.position.x, other.transform.position.y + 5, other.transform.position.z - 5);
-                showInteraction = true;
+            {
                 if (other.gameObject.GetComponent<Repair>() != null)
                 {
                     if (InventoryManager.Instance.slots[0] >= other.gameObject.GetComponent<Repair>().price[0] &&
@@ -99,13 +100,11 @@ public class Controler : MonoBehaviour
         //else _anim.SetBool("HIT", false);
     }
     
-    void OnTriggerEnter(Collider other)
+    void OnTriggerExit(Collider other)
     {
-        if(other.gameObject.layer == 8 && !showInteraction)
+        if(other.gameObject.layer == 8)
         {
-            GameObject e = Instantiate(interactionLogo);
-            e.transform.position = new Vector3(other.transform.position.x, other.transform.position.y + 5, other.transform.position.z - 5);
-            showInteraction = true;
+            Destroy(rien);
         }
     }
     void ChangeState(State newState)
