@@ -76,15 +76,15 @@ public class Repair : MonoBehaviour
             }
             if (_lifePoints <= 0)
             {
-
                 _stat = 0;
+                SetAsset();
+                TerrainManager.Instance.builds.Remove(transform);
+                loot();
                 foreach (EnnemisNavemesh e in EnnemisManager.Instance.ennemis)
                 {
                     e.checkFocusExist();
                 }   
-            SetAsset();
-            TerrainManager.Instance.builds.Remove(transform);
-            loot();
+           
             }
         }
     }

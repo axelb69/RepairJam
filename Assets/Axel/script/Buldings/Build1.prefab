@@ -175,7 +175,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.6333196, y: 1, z: 0.59378284}
+  m_Size: {x: 0.45, y: 1, z: 0.38}
   m_Center: {x: 0.013273138, y: 0, z: 0.008813518}
 --- !u!114 &6679951992046191217
 MonoBehaviour:
@@ -199,6 +199,9 @@ MonoBehaviour:
   - {fileID: 9136090249337946982, guid: af5c8b0512afe464a8556eef308dac6a, type: 3}
   - {fileID: 9136090249337946982, guid: 39b2a067087a2e340ace8f8e5b26457f, type: 3}
   _price: 030000000300000003000000
+  _osLoot: 0
+  _stoneLoot: 0
+  _woodLoot: 0
 --- !u!54 &2041622111
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -242,5 +245,5 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.97, y: 1.21, z: 1.13}
+  m_Size: {x: 1.24, y: 1.21, z: 1.31}
   m_Center: {x: 0.013273138, y: 0, z: 0.008813518}

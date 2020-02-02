@@ -59,7 +59,15 @@ public class EnnemisSpawn : MonoBehaviour
     IEnumerator Timer()
     {
         yield return new WaitForSeconds(_TimebetweenWave);
-        WavesManager.Instance.wave++;
+        if (WavesManager.Instance.wave == 15)
+        {
+            Time.timeScale = 0;
+        }
+        else
+        {
+            WavesManager.Instance.wave++;
+        }
+       
         OnNewWave();
         
         _onWave = true;
