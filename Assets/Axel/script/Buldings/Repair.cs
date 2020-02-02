@@ -8,6 +8,11 @@ public class Repair : MonoBehaviour
     [SerializeField] private SpriteRenderer _render;
     [SerializeField] private GameObject[] _clone = null;
     [SerializeField] private int[] _price;
+
+    [SerializeField] private int _osLoot = 0;
+    [SerializeField] private int _stoneLoot = 0;
+    [SerializeField] private int _woodLoot = 0;
+
     public int[] price { get { return _price; } }
     private int _stat = 0;
     public int stat
@@ -87,10 +92,10 @@ public class Repair : MonoBehaviour
     {
         GameObject loot;
         loot = Instantiate(_clone[0], transform.position + Vector3.right * TerrainManager.Instance.size, Quaternion.identity, transform);
-        loot.GetComponent<bone>().cunt = 3;
+        loot.GetComponent<bone>().cunt = _osLoot;
         loot = Instantiate(_clone[1], transform.position + Vector3.left * TerrainManager.Instance.size, Quaternion.identity, transform);
-        loot.GetComponent<stone>().cunt = 3;
+        loot.GetComponent<stone>().cunt = _stoneLoot;
         loot = Instantiate(_clone[2], transform.position + Vector3.back * TerrainManager.Instance.size, Quaternion.identity, transform);
-        loot.GetComponent<Wood>().cunt = 3;
+        loot.GetComponent<Wood>().cunt = _woodLoot;
     }
 }
