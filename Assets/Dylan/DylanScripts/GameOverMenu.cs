@@ -9,6 +9,12 @@ public class GameOverMenu : MonoBehaviour
     [SerializeField]
     private Text scoreText;
 
+    [SerializeField]
+    private string[] tipsList;
+
+    [SerializeField]
+    private Text scoreTextHolder;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -33,10 +39,22 @@ public class GameOverMenu : MonoBehaviour
 
     void OnEnable()
     {
-        if(transform.GetChild(5).GetChild(1).GetComponent<Text>())
+        /*if(transform.GetChild(5).GetChild(1).GetComponent<Text>())
         {
             transform.GetChild(5).GetChild(1).GetComponent<Text>().text = scoreText.text;
-        }
+        }*/
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
+
+    public void GenerateTip()
+    {
+        Debug.Log("ui");
+        int quote = Random.Range(0, tipsList.Length -1 );
+        scoreTextHolder.text = tipsList[quote];
     }
 
 }

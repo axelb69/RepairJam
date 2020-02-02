@@ -5,6 +5,7 @@ using Engine.Utils;
 
 public class AudioManager : Singleton<AudioManager>
 {
+    [SerializeField]
     private AudioSource _audioSouce;
     public AudioSource audioSouce{get{return _audioSouce;}}
 

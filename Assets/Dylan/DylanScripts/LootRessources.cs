@@ -13,19 +13,17 @@ public class LootRessources : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        
     }
 
     void OnTriggerEnter(Collider col)
     {
-        if (col.gameObject.layer == 9)
-        {
-
-            if (col.gameObject.GetComponent<bone>() != null) { InventoryManager.Instance.slots[0] += col.gameObject.GetComponent<bone>().cunt; }
-            if (col.gameObject.GetComponent<stone>() != null) { InventoryManager.Instance.slots[1] += col.gameObject.GetComponent<stone>().cunt; }
-            if (col.gameObject.GetComponent<Wood>() != null) { InventoryManager.Instance.slots[2] += col.gameObject.GetComponent<Wood>().cunt; }
-            Destroy(col.gameObject);
-        }
-                             
+        AudioManager.Instance.audioSouce.clip = AudioManager.Instance.clips[9];
+        AudioManager.Instance.audioSouce.Play();
+        //InventoryManager.Instance.slots[0] += col.GetComponent<RessourcesInformations>().ressourcesInformations[0];
+        //InventoryManager.Instance.slots[1] += col.GetComponent<RessourcesInformations>().ressourcesInformations[1];
+        //InventoryManager.Instance.slots[2] += col.GetComponent<RessourcesInformations>().ressourcesInformations[2];
+        
+        Destroy(col.gameObject, 0.1f);
     }
 }
