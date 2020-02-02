@@ -10,6 +10,9 @@ public class TerrainManager : Singleton<TerrainManager>
     private List<Transform> _builds = new List<Transform>();
     public List<Transform> builds { get { return _builds; } set { _builds = value; Debug.Log("new build");} }
     private List<bool> _full = new List<bool>();
-    public List<bool> full { get { return _full; } set { _full = value; } }   
+    public List<bool> full { get { return _full; } set { _full = value; } }
+
+    private int _pointDeVie;
+    public int pointDeVie { get { return _pointDeVie; } set { _pointDeVie = value; } }
 }
 

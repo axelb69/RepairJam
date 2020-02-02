@@ -11,6 +11,12 @@ public class Controler : MonoBehaviour
     private Repair _focus = null;
     enum State{Normal, Build}
     State state;
+    private float _newtime;
+
+    private void Start()
+    {
+        TheGameManager.Instance.controler = this;
+    }
 
     void Update()
     {
@@ -100,7 +106,15 @@ public class Controler : MonoBehaviour
     IEnumerator RepairTimer(float time)
     {
         _anim.SetBool("HIT", true);
-        yield return new WaitForSeconds(time);
+        yield return new WaitForSeconds(_newtime);
         ChangeState(State.Normal);
     }
+
+    public void OnNewWave ()
+    {
+        int wave = WavesManager.Instance.wave;
+        _newtime = WavesManager.Instance.houseConstructTime.Evaluate(wave);
+        _speed = WavesManager.Instance.characSpeed.Evaluate(wave);
+    }
+
 }

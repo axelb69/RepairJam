@@ -17,12 +17,14 @@ public class EnnemisSpawn : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        OnNewWave();
         _reachTime = Time.time + _timeBetweenSpawn;
     }
 
     // Update is called once per frame
     private void Update()
     {
+
         if (_preparNewWave)
         {
             _preparNewWave = false;
@@ -57,7 +59,23 @@ public class EnnemisSpawn : MonoBehaviour
     IEnumerator Timer()
     {
         yield return new WaitForSeconds(_TimebetweenWave);
+        Debug.Log("a");
+        WavesManager.Instance.wave++;
+        OnNewWave();
+        
         _onWave = true;
         _preparNewWave = true;
+    }
+
+    public void OnNewWave()
+    {
+        int wave = WavesManager.Instance.wave;
+        _TimebetweenWave = WavesManager.Instance.tempsWaves.Evaluate(wave);
+        _ennemySpawnnumber = (int) WavesManager.Instance.mobNumber.Evaluate(wave);
+        _timeBetweenSpawn = WavesManager.Instance.timeBetweenMobs.Evaluate(wave);
+        TheGameManager.Instance.controler.OnNewWave();
+        TerrainManager.Instance.pointDeVie = (int)WavesManager.Instance.maxPVHouse.Evaluate(wave);
+        EnnemisManager.Instance.speed = WavesManager.Instance.mobSpeed.Evaluate(wave);
+
     }
 }

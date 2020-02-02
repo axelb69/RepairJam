@@ -15,6 +15,6 @@ public class recup : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(WavesManager.Instance.houseConstructTime.Evaluate(_waves));
+       // Debug.Log(WavesManager.Instance.houseConstructTime.Evaluate(_waves));
     }
 }
