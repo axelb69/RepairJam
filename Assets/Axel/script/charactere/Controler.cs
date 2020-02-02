@@ -13,6 +13,9 @@ public class Controler : MonoBehaviour
     State state;
     private bool contruct = false;
     private float _newtime;
+    bool showInteraction;
+
+    [SerializeField] private GameObject interactionLogo;
 
     private void Start()
     {
@@ -65,30 +68,46 @@ public class Controler : MonoBehaviour
     }
     private void OnTriggerStay(Collider other)
     {
-        if ((Input.GetKeyDown(KeyCode.E) || Input.GetButtonDown("Fire1")) && other.gameObject.layer == 8 )
-        {          
-            if (other.gameObject.GetComponent<Repair>() != null)
-            {
-                if (InventoryManager.Instance.slots[0] >= other.gameObject.GetComponent<Repair>().price[0] &&
-                InventoryManager.Instance.slots[1] >= other.gameObject.GetComponent<Repair>().price[1] &&
-                InventoryManager.Instance.slots[2] >= other.gameObject.GetComponent<Repair>().price[2]&& ! contruct)
+        if(other.gameObject.layer == 8 && !showInteraction)
+        {
+
+            if ((Input.GetKeyDown(KeyCode.E) || Input.GetButtonDown("Fire1")))
+            {   
+                GameObject e = Instantiate(interactionLogo);
+                e.transform.position = new Vector3(other.transform.position.x, other.transform.position.y + 5, other.transform.position.z - 5);
+                showInteraction = true;
+                if (other.gameObject.GetComponent<Repair>() != null)
                 {
-                    contruct = true;
-                    InventoryManager.Instance.slots[0] -= other.gameObject.GetComponent<Repair>().price[0];
-                    InventoryManager.Instance.slots[1] -= other.gameObject.GetComponent<Repair>().price[1];
-                    InventoryManager.Instance.slots[2] -= other.gameObject.GetComponent<Repair>().price[2];
-                    ChangeState(State.Build);
-                    //_anim.SetBool("HIT", true);
-                    //InventoryManager.Instance.slots[1] += 2;
-                    //Debug.Log(_anim.GetBool("HIT"));
-                    //Debug.Log(other.gameObject.GetComponent<Repair>());
-                    _focus = other.gameObject.GetComponent<Repair>();
+                    if (InventoryManager.Instance.slots[0] >= other.gameObject.GetComponent<Repair>().price[0] &&
+                    InventoryManager.Instance.slots[1] >= other.gameObject.GetComponent<Repair>().price[1] &&
+                    InventoryManager.Instance.slots[2] >= other.gameObject.GetComponent<Repair>().price[2]&& ! contruct)
+                    {
+                        contruct = true;
+                        InventoryManager.Instance.slots[0] -= other.gameObject.GetComponent<Repair>().price[0];
+                        InventoryManager.Instance.slots[1] -= other.gameObject.GetComponent<Repair>().price[1];
+                        InventoryManager.Instance.slots[2] -= other.gameObject.GetComponent<Repair>().price[2];
+                        ChangeState(State.Build);
+                        //_anim.SetBool("HIT", true);
+                        //InventoryManager.Instance.slots[1] += 2;
+                        //Debug.Log(_anim.GetBool("HIT"));
+                        //Debug.Log(other.gameObject.GetComponent<Repair>());
+                        _focus = other.gameObject.GetComponent<Repair>();
+                    }
                 }
             }
         }
         //else _anim.SetBool("HIT", false);
     }
-
+    
+    void OnTriggerEnter(Collider other)
+    {
+        if(other.gameObject.layer == 8 && !showInteraction)
+        {
+            GameObject e = Instantiate(interactionLogo);
+            e.transform.position = new Vector3(other.transform.position.x, other.transform.position.y + 5, other.transform.position.z - 5);
+            showInteraction = true;
+        }
+    }
     void ChangeState(State newState)
     {
         switch(newState)
