@@ -6,6 +6,7 @@ public class Repair : MonoBehaviour
 {
     [SerializeField] private Sprite[] _statSprite;
     [SerializeField] private SpriteRenderer _render;
+    [SerializeField] private GameObject _clone = null;
     private int _stat = 0;
     public int stat
     {
@@ -68,5 +69,9 @@ public class Repair : MonoBehaviour
             SetAsset();
             TerrainManager.Instance.builds.Remove(transform);
         }
+    }
+    private void loot()
+    {
+        Instantiate(_clone, transform.position + Vector3.down * TerrainManager.Instance.size, Quaternion.identity, transform);
     }
 }
