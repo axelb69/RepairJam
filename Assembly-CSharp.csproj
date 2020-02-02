@@ -75,6 +75,7 @@
     <Compile Include="Assets\Dylan\DylanScripts\FollowMouse.cs" />
     <Compile Include="Assets\Dylan\DylanScripts\LootRessources.cs" />
     <Compile Include="Assets\Dylan\DylanScripts\MainMenu.cs" />
+    <Compile Include="Assets\Dylan\DylanScripts\RandomTimer.cs" />
     <Compile Include="Assets\Dylan\DylanScripts\RessourcesInformations.cs" />
     <Compile Include="Assets\Dylan\DylanScripts\ShowRessources.cs" />
     <Compile Include="Assets\Julie\ScriptsJulie\recup.cs" />
