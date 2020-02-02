@@ -5,6 +5,6 @@ using Engine.Utils;
 
 public class EnnemisManager : Singleton<EnnemisManager>
 {
-    private Transform _destination = null;
-    public Transform destination { get { return _destination; } set { _destination = value; } }  
+    private float _speed;
+    public float speed { get { return _speed; } set { _speed = value; } }
 }
