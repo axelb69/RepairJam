@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Dylan/MainMenu.unity
+- path: Assets/Julie/SceneJulie/SceneTestsJulie.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
