@@ -51,34 +51,37 @@ public class EnnemisNavemesh : MonoBehaviour
 
     void Update()
     {
-        if (_stading)
+        if(state == State.GoToTarget)
         {
-            findfocus();
-        }
-        if (_angent.velocity.z >= 0)
-        {
-            animator.SetBool("WalkUp", true);
-            animator.SetBool("WalkDown", false);
-        }
-        else if(_angent.velocity.z < 0)
-        {
-            animator.SetBool("WalkDown", true);
-            animator.SetBool("WalkUp", false);
-        }
+            if (_stading)
+            {
+                findfocus();
+            }
+            if (_angent.velocity.z >= 0)
+            {
+                animator.SetBool("WalkUp", true);
+                animator.SetBool("WalkDown", false);
+            }
+            else if(_angent.velocity.z < 0)
+            {
+                animator.SetBool("WalkDown", true);
+                animator.SetBool("WalkUp", false);
+            }
 
-        if(_angent.velocity.x < 0)
-        {
-            spriteRenderer.flipX = true;
-        }
-        else if(_angent.velocity.x > 0)
-        {
-            spriteRenderer.flipX = false;
+            if(_angent.velocity.x < 0)
+            {
+                spriteRenderer.flipX = true;
+            }
+            else if(_angent.velocity.x > 0)
+            {
+                spriteRenderer.flipX = false;
+            }
         }
     }
     
     public void checkFocusExist()
     {
-        if (TerrainManager.Instance.builds.IndexOf(_destTrans) == -1)
+        if (TerrainManager.Instance.builds.IndexOf(_destTrans) == -1 && this.state != State.Dead)
         {
             findfocus();
         }
@@ -86,24 +89,27 @@ public class EnnemisNavemesh : MonoBehaviour
 
     void ChangeState(State newState)
     {
+        Debug.Log(newState + gameObject.name);
         switch(newState)
         {
             case State.GoToTarget:
+            state = newState;
             break;
 
             case State.Destruct:
             _angent.isStopped = true;
             animator.SetBool("Hit", true);
+            state = newState;
             StartCoroutine(Timer2());
             break;
 
             case State.Dead:
-            animator.SetTrigger("Die");
+            animator.SetBool("Die", true);
             _angent.isStopped = true;
+            state = newState;
             StartCoroutine(Timer3());
             break;
         }
-        state = newState;
     }
 
     IEnumerator Timer()
@@ -113,19 +119,26 @@ public class EnnemisNavemesh : MonoBehaviour
     }
     IEnumerator Timer2()
     {
+        Debug.Log("Time to destroy : " + _timeTodestroy);
         yield return new WaitForSeconds(_timeTodestroy);
+        ChangeState(State.Dead);
         if (_destTrans != null)
         {
             _destTrans.GetComponent<Repair>().kill(_damage);
         }
         EnnemisManager.Instance.ennemis.Remove(this);
-        ChangeState(State.Dead);
     }
     IEnumerator Timer3()
     {
+        Debug.Log("Going To Die");
         yield return new WaitForSeconds(0.5f);
-        Destroy(gameObject);
+        Debug.Log("Die");
+        Die();
+    }
 
+    public void Die()
+    {
+        Destroy(this.gameObject);
     }
     private void findfocus()
     {
