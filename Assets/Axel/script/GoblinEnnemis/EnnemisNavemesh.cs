@@ -75,15 +75,15 @@ public class EnnemisNavemesh : MonoBehaviour
             spriteRenderer.flipX = false;
         }
     }
+    
     public void checkFocusExist()
     {
-       
         if (TerrainManager.Instance.builds.IndexOf(_destTrans) == -1)
         {
-            
             findfocus();
         }
     }
+
     void ChangeState(State newState)
     {
         switch(newState)
