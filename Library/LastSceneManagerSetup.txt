@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Julie/SceneJulie/SceneTestsJulie.unity
+- path: Assets/win.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

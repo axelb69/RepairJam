@@ -13,4 +13,7 @@ public class TheGameManager : Singleton<TheGameManager>
 
     private Repair _repair;
     public Repair repair { get { return _repair; } set { _repair = value; } }
+
+    private int _scor=0;
+    public int scor { get { return _scor; } set { _scor = value; } }
 }
