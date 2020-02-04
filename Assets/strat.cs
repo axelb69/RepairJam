@@ -3,10 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class strat : MonoBehaviour
-{
-    // Start is called before the first frame update
+{   
     void Start()
     {
-        Time.timeScale = 1;
+        WavesManager.Instance.wave = 0;
+        TheGameManager.Instance.scor = 0;
+        InventoryManager.Instance.slots[0] = 0;
+        InventoryManager.Instance.slots[1] = 0;
+        InventoryManager.Instance.slots[2] = 0;
     }
 }

@@ -27,4 +27,8 @@ public class InventoryManager : Singleton<InventoryManager>
         _inventory.Add("stone", _slots[1]);
         _inventory.Add("wood", _slots[2]);
     }
+    private void Start()
+    {
+        Debug.Log("d");
+    }
 }

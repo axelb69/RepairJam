@@ -27,7 +27,6 @@ public class EnnemisSpawn : MonoBehaviour
     {
         if (TerrainManager.Instance.builds.Count == 0)
         {
-            Time.timeScale = 0;
             SceneManager.LoadScene(3);
         }
         if (_preparNewWave)
@@ -66,7 +65,6 @@ public class EnnemisSpawn : MonoBehaviour
         yield return new WaitForSeconds(_TimebetweenWave);
         if (WavesManager.Instance.wave == 16)
         {
-            Time.timeScale = 0;
             SceneManager.LoadScene(4);
         }
         else
