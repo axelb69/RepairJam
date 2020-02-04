@@ -35,7 +35,9 @@ public class MainMenu : MonoBehaviour
 
     public void ReturnToMenu()
     {
-        SceneManager.LoadScene(0);
+        OptionPanel.SetActive(false);
+        CreditPanel.SetActive(false);
+        gameObject.SetActive(true);
     }
 
     public void Options()

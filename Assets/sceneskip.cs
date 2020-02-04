@@ -6,14 +6,8 @@ using UnityEngine.SceneManagement;
 public class sceneskip : MonoBehaviour
 {
     // Start is called before the first frame update
-    void Start()
+    public void openscene()
     {
-        StartCoroutine(time());
-    }
-    IEnumerator time()
-    {
-        yield return new WaitForSeconds(12);
         SceneManager.LoadScene(2);
     }
-    
 }
