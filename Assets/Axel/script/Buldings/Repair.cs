@@ -65,7 +65,6 @@ public class Repair : MonoBehaviour
 
     private void SetAsset()
     {
-        Debug.Log("a");
         _render.sprite = _statSprite[_stat];
     }
     public void kill(int damage)

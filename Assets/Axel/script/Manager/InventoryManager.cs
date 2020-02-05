@@ -29,6 +29,6 @@ public class InventoryManager : Singleton<InventoryManager>
     }
     private void Start()
     {
-        Debug.Log("d");
+
     }
 }
